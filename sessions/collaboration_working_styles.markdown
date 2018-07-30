@@ -7,7 +7,8 @@ slidenumbers: true
 
 # Introverts, Extroverts, and Everything In Between
 
-Session Structure:
+Agenda:
+
 * Opening: objectives, reading (9 mins)
 * Line Up (5 mins)
 * Small Group Discussion #1 (15 mins)
