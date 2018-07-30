@@ -7,14 +7,17 @@
 |*9:00-10:00*   | Welcome to KWK |
 |*10:00-10:30*  | Computer Setup |
 |*10:30-11:00*  | [Collaboration: Work Styles](./collaboration_working_styles.markdown)|
-|*11:00-12:00*  | [Class: How to Pair](playgrounds/how_to_pair_slides.markdown)|
-|*12:00-1:00*   | Lunch |
-|*1:00-1:30*    | [Class: Xcode & Swift Intro](./xcode_intro_slides.markdown) |
-|*1:30-2:00*    | [Class: Intro to Playgrounds](playgrounds/intro_to_playgrounds_slides.markdown)|  
-|*2:00-2:15*    | [Brain Break](./brain_break_resources.markdown) |
-|*2:15-3:00*    | [Lab: Commands & Functions (iPad)](playgrounds/commands_and_functions_lab.markdown)|
-|*3:00-3:30*    | [Class: Data Types & Variables](./data_types_slides.markdown) |
-|*3:30-4:15*    | [Lab: Variables, Strings, and Printing](./data_types_lab.markdown) |
+|*11:00-11:30*  | [Class: How to Pair](playgrounds/how_to_pair_slides.markdown)|
+|*11:30-12:30*   | Lunch |
+|*12:30-12:45*    | [Class: Xcode & Swift Intro](./xcode_intro_slides.markdown) |
+|*12:45-1:00*    | [Class: Intro to Playgrounds](playgrounds/intro_to_playgrounds_slides.markdown)|  
+|*1:00-1:15*    | [Brain Break](./brain_break_resources.markdown) |
+|*1:15-2:00*    | [Lab: Commands & Functions (iPad)](playgrounds/commands_and_functions_lab.markdown)|
+|*2:00-2:15*    | [Class: Data Types & Variables](./data_types_slides.markdown) |
+|*2:15-3:00*    | [Lab: Variables, Strings, and Printing](./data_types_lab.markdown) |
+|*3:00-3:15*    | [Brain Break](./brain_break_resources.markdown)
+|*3:15-3:30*    | [Class: Conditionals](./conditionals_slides.markdown) |
+|*3:30-4:15*    | [Lab: Conditionals](./conditionals_lab.markdown)
 |*4:15-4:45*    | Wrap Up |
 
 ### Day 2
