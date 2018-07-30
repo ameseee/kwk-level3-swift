@@ -4,8 +4,8 @@
 
 |Time|Session|
 |---|---|
-|*9:15-9:30*    | Opening Circle |
-|*9:30-10:30*   | Welcome to KWK |
+|*9:00-10:00*   | Welcome to KWK |
+|*10:00-10:30*  | Computer Setup |
 |*10:30-11:00*  | [Collaboration: Work Styles](./collaboration_working_styles.markdown)|
 |*11:00-12:00*  | [Class: How to Pair](playgrounds/how_to_pair_slides.markdown)|
 |*12:00-1:00*   | Lunch |
