@@ -15,7 +15,7 @@ Agenda:
 * Closing (5 min)
 
 ^ You've shown a lot of dediction by coming to previous KWK camps and all bring so much awesome experience!
-At a point in every relationship, things are not always unicorns and rainbows. We have different ideas and opinions and sometimes are under pressure/stress. 
+At a point in every relationship, things are not always unicorns and rainbows. We have different ideas and opinions and sometimes are under pressure/stress.
 By discussing how we learn and work best, we can become more aware of these preferences, think about ways that we can better communicate our needs, and compromise in order to bring out the best in everyone.
 
 ---
@@ -34,17 +34,14 @@ What comes to mind when you hear the word "introvert"? How about "extrovert"? Wh
 
 Read the following [article](https://www.fastcompany.com/3016031/leadership-now/are-you-an-introvert-or-an-extrovert-and-what-it-means-for-your-career) to get a better sense of what these terms mean.
 
-* If you do not have time, you can summarize the article "Introverts gain energy from being alone, extroverts gain energy from being with other, ambiverts need both *
-
-Often we think that introverts are shy and extroverts are outgoing. But in reality, everyone exists on the spectrum of introversion and extroversion, and our place on that spectrum can change depending on our current circumstances.
-
 ^ 5 min
+If you do not have time, you can summarize the article "Introverts gain energy from being alone, extroverts gain energy from being with other, ambiverts need both *
 
 ---
 
 # What Do Introversion and Extroversion Mean, Really?
 
-Often we think that introverts are shy and extroverts are outgoing. 
+Often we think that introverts are shy and extroverts are outgoing.
 
 But in reality, everyone exists on the spectrum of introversion and extroversion, and our place on that spectrum can change depending on our current circumstances.
 
