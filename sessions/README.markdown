@@ -15,9 +15,9 @@
 |*1:15-2:00*    | [Lab: Commands & Functions (iPad)](playgrounds/commands_and_functions_lab.markdown)|
 |*2:00-2:15*    | [Class: Data Types & Variables](./data_types_slides.markdown) |
 |*2:15-3:00*    | [Lab: Variables, Strings, and Printing](./data_types_lab.markdown) |
-|*3:00-3:15*    | [Brain Break](./brain_break_resources.markdown)
+|*3:00-3:15*    | [Brain Break](./brain_break_resources.markdown) |
 |*3:15-3:30*    | [Class: Conditionals](./conditionals_slides.markdown) |
-|*3:30-4:15*    | [Lab: Conditionals](./conditionals_lab.markdown)
+|*3:30-4:15*    | [Lab: Conditionals](./conditionals_lab.markdown) |
 |*4:15-4:45*    | Wrap Up |
 
 ### Day 2
