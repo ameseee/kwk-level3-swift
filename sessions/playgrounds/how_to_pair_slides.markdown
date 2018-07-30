@@ -53,9 +53,8 @@ Here are a few questions to discuss with a pair:
 
 # A First DTR
 
-You've already done one set of Swift Playground labs. We're about to do another. But this time we'll be pairing.
-
-**Turn to your pair and try a 5-minute DTR**
+Turn to your partner and try a 5-minute DTR.
+You will then work with your partner on our first challenge.
 
 ---
 
@@ -63,11 +62,11 @@ You've already done one set of Swift Playground labs. We're about to do another.
 
 ^ We said that pairing needs a "work pattern". There are several work patterns that can be used in pairing.
 
-* The driver is in charge of the machine -- the iPad
+* The driver is in charge of the machine -- the iPad/laptop
 * The navigator is in charge of the plan -- what do we do next?
-* The navigator dictates what instructions should be entered for Byte (the thinking)
-* The driver is in charge of entering those instructions (the doing)
-* Each exercise you complete, switch roles
+* The navigator dictates what code should be entered (the thinking)
+* The driver is in charge of typing the code (the doing)
+* Each exercise/chunk of work you complete, switch roles
 
 ---
 
@@ -76,5 +75,4 @@ You've already done one set of Swift Playground labs. We're about to do another.
 It's time to practice your pairing.
 
 * Quickly recap your DTR to make sure you're ready to work
-* Open the Function & For Loops Lab Notes
-* Work through the Lab while using the Driver/Navigator pattern
+* Once everyone is ready, we'll move on to the next exercise
