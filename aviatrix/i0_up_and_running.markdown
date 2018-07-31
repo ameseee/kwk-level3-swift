@@ -48,7 +48,7 @@ Add the `running` instance variable so it defaults to false, then changes to tru
 ```
 var running = false
 
-fun start() -> Bool {
+func start() -> Bool {
   running = true
   return running
 }

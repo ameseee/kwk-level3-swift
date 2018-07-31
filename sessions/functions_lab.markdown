@@ -57,6 +57,7 @@ Without return values, our functions can't really send their results anywhere. S
 
 * What is another argument that could be passed in your function? Try it out! Not sure what the syntax looks like? You got this. Remember, strong developers are strong googlers, so feel free to look for examples online.
 * Can you have more than 1 return value? How do you know?
+* Annotate your code - for each line of code, directly below or above it, write a comment that describes, using your vocab, what that line of code does.
 
 ## Circle Back
 
