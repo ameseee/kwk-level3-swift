@@ -25,12 +25,10 @@ In your notebooks, take 5 minutes to reflect on the following questions
 
 ---
 
-# Day 2: Stand Up & Journaling
-
-In your notebooks, take 5 minutes to reflect on the following questions
+# Day 2: Stand Up
 
 * What did you learn from yesterday?
-* What is something you learned about someone in this room?
+* What's a specfic goal you have for yourself today?
 
 ---
 
