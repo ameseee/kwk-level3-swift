@@ -28,7 +28,6 @@ slidenumbers: true
 * An action in our code
 * A function has a specific job, and it sits around waiting to be asked to do it's job
 * It can have a very small job (add two numbers together) or a very big job (find the standard deviation of 1 million numbers)
-* We get to write them so we have control over what their jobs are
 
 ^ You've seen these before - in JavaScript they are also called functions; in Ruby they are called methods. This is the meat of a program - without functions we can't do much.
 In just a minute, we will go through the syntax of functions in Swift, and make sure you have everything you need to start writing them!
