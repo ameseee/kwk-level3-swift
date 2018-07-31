@@ -18,7 +18,7 @@
 |*3:00-3:15*    | [Brain Break](./brain_break_resources.markdown) |
 |*3:15-3:30*    | [Class: Conditionals](./conditionals_slides.markdown) |
 |*3:30-4:15*    | [Lab: Conditionals](./conditionals_lab.markdown) |
-|*4:15-4:45*    | Wrap Up |
+|*4:15-4:45*    | [Wrap Up](./wrap-up.markdown) |
 
 ### Day 2
 
@@ -39,7 +39,7 @@
 |*2:45-3:00*  | [Brain Break](./brain_break_resources.markdown) |
 |*3:00-3:30*  | [Class: Classes and Objects](./classes_objects_slides.markdown) |
 |*3:30-4:15*  | [Lab: Classes and Objects](./classes_objects_lab.markdown) |
-|*4:15-4:45*  | Wrap Up |
+|*4:15-4:45*  | [Wrap Up](./wrap-up.markdown) |
 
 ### Day 3
 
@@ -55,7 +55,7 @@
 |*3:00-3:15*  | [Brain Break](./brain_break_resources.markdown) |
 |*3:15-3:45*  | Worktime: Finishing Touches |
 |*3:45-4:15*  | Gallery Walk |
-|*4:15-4:45*  | Wrap Up |
+|*4:15-4:45*  | [Wrap Up](./wrap-up.markdown) |
 
 ### Day 4
 
@@ -72,7 +72,7 @@
 |*2:45-3:00*  | [Brain Break](./brain_break_resources.markdown) |
 |*3:00-3:15*  | Demo: Viewfinder |
 |*3:15-4:15*  | Feedback: Retrospective & Survey |
-|*4:15-4:45*  | Wrap Up |
+|*4:15-4:45*  | [Wrap Up](./wrap-up.markdown) |
 
 ### Day 5
 
@@ -88,7 +88,7 @@
 |*2:30-3:00*  | [Class: Accessing the Camera](./access_camera_slides.markdown) |
 |*3:00-3:15*  | [Brain Break](./brain_break_resources.markdown) |
 |*3:15-4:15*  | [Lab: Accessing the Camera & Photo Library](./access_camera_lab.markdown) |
-|*4:15-4:45*  | Wrap Up |
+|*4:15-4:45*  | [Wrap Up](./wrap-up.markdown) |
 
 ### Day 6
 
@@ -108,7 +108,7 @@
 |*2:30-2:45*  | [Brain Break](./brain_break_resources.markdown) |
 |*2:45-3:15*  | [Trajectory: Careers in Tech](./careers_in_tech.markdown) |
 |*3:15-4:15*  | Lab: Careers Research |
-|*4:15-4:45*  | Wrap Up |
+|*4:15-4:45*  | [Wrap Up](./wrap-up.markdown) |
 
 
 ### Day 8
@@ -124,7 +124,7 @@
 |*1:45-2:45*  | [Lab: Build Photo Detail View](./build_photo_detail_view.markdown) |
 |*2:45-3:00*  | [Brain Break](./brain_break_resources.markdown) |  | |
 |*3:00-4:15*  | [Lab: Delete Photo Functionality](./delete_functionality_lab.markdown) |  
-|*4:15-4:45*  | Wrap Up |
+|*4:15-4:45*  | [Wrap Up](./wrap-up.markdown) |
 
 ### Day 9
 
@@ -138,7 +138,7 @@
 |*1:45-2:45*  | Lab: Writing Your Demo |
 |*2:45-3:45*  | Class: Demo Practice |
 |*3:45-4:15*  | [Lab: Taking Your Work With You](./taking_work_with_you.markdown) |
-|*4:15-4:45*  | Wrap Up |
+|*4:15-4:45*  | [Wrap Up](./wrap-up.markdown) |
 
 ### Day 10
 
@@ -149,4 +149,4 @@
 |*10:00-12:00*| Lab: Final Touches |  
 |*12:00-1:00* | Lunch |
 |*1:00-4:00*  | Graduation - Details TBD |  
-|*4:15-4:45*  | Wrap Up |
+|*4:15-4:45*  | [Wrap Up](./wrap-up.markdown) |
