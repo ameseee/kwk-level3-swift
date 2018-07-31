@@ -35,16 +35,17 @@ slidenumbers: true
 * When we don't care about the order of items (array)
 * When we need an _associative_ relationship (title for some info)
 
-^ Provide one example and non-example - example: list of human names and their pets. non-example (better for array) - list of all the dogs in my building. 
+^ Provide one example and non-example - example: list of human names and their pets. non-example (better for array) - list of all the dogs in my building.
 
 ---
 
-# Vocabulary Reflection
+# When would we use them?
 
-* Dictionary
-* Key/Value pair
+* Example: Humans and Pet Names
+* Non-example: List of all the dogs in my building
 
 ---
+
 # Array or Dictionary
 
 Turn and Talk: For each set of data, would an array or dictionary be better to store it? Why?
@@ -92,7 +93,7 @@ print(phones)
 => ["apple": "iPhone", "google": "Pixel 2"]
 ```
 
-^ the first line is adding a key of "apple" that points to the value of "iPhone", etc.
+^ The first line is adding a key of "apple" that points to the value of "iPhone", etc.
 
 ---
 
@@ -107,7 +108,7 @@ print(phones["apple"])
 ```
 
 ^ Make sure to point this out: the way we access values from a dictionary is by using the key - this means that we can't re-use keys. If you have multiple things with a similar title, you'll see programmers use key_1, key_2, etc.
-Notice that `Optional("iPhone")` was printed - not just the string "iPhone", like you probably expected. Swift is very specific and wants to make sure that there IS DATA stored in the dictionary (in this case, phones["apple"]) before doing anything with the data; if it were `nil` it could cause problems in bigger programs. 
+Notice that `Optional("iPhone")` was printed - not just the string "iPhone", like you probably expected. Swift is very specific and wants to make sure that there IS DATA stored in the dictionary (in this case, phones["apple"]) before doing anything with the data; if it were `nil` it could cause problems in bigger programs.
 To tell Swift we are sure there is data, we do something called 'unwrapping' - by typing an exclamation point after the closing bracket. <MODEL in Playground>
 
 ---
@@ -130,7 +131,7 @@ var phones = [
   ]
 ```
 
-^ Remember, earlier we started a dictionary that started empty. This strategy allows us to initialize a dictionary WITH data. 
+^ Remember, earlier we started a dictionary that started empty. This strategy allows us to initialize a dictionary WITH data.
 
 ---
 
@@ -152,11 +153,18 @@ Typically, you'll see iOS developers wrap `Array()` around, in this case, the `p
 
 ---
 
-# Whiteboards
+# Notebooks
 
 Create a dictionary with a list of 3 people (yourself, family, friends, or other students here!) and their birthdays
 
-^ Give students ~5 minutes to white board, have partners give feedback, and then lead a debrief on how everyone did it (there should be little variation)
+^ Give students ~5 minutes to take notes, have partners give feedback, and then lead a debrief on how everyone did it (there should be little variation)
+
+---
+
+# Technical Vocabulary
+
+* Dictionary
+* Key/Value pair
 
 ---
 
