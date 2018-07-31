@@ -66,6 +66,13 @@ Each group should be ready to share their chart
 
 ---
 
+# Journal
+* Where do you fall on the introvert/extrovert spectrum?
+* What do you need your partners to know?
+* What are things you want to be aware of as you go into pairing, so that you are a supportive partner?
+
+---
+
 # Closing
 
 Share out!

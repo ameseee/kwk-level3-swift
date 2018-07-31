@@ -24,35 +24,24 @@
 
 |Time|Session|
 |---|---|
-|*9:15-9:30*  | [Stand Up & Journaling](./opening_circle_stand_up.markdown) |
-|*9:30-10:00* | [Class: Conditionals](./conditionals_slides.markdown) |
-|*10:00-11:00*| [Lab: Conditionals](./conditionals_lab.markdown) |
-|*11:00-12:00*| [Challenge: Paired Worktime](./challenges) |
+|*9:00-9:15*  | [Stand Up & Journaling](./opening_circle_stand_up.markdown) |
+|*9:15-9:30*  | [Class: Intro to Functions](./functions_slides.markdown) |
+|*9:30-10:15*  | [Lab: Functions](./functions_lab.markdown) |
+|*10:15-10:30*  | [Brain Break](./brain_break_resources.markdown) |
+|*10:30-10:45*  | [Class: Arrays](./arrays_slides.markdown)
+|*10:45-11:30*  | [Lab: Arrays & Iteration](./arrays_lab.markdown)
+|*11:30-12:00*| [Challenge: Paired Worktime](./challenges) OR Early Lunch |
 |*12:00-1:00* | Lunch |
-|*1:00-1:30*  | [Class: Arrays](./arrays_slides.markdown)
-|*1:30-2:30*  | [Lab: Arrays & Iteration](./arrays_lab.markdown)
-|*2:30-2:45*  | [Brain Break](./brain_break_resources.markdown) |
-|*2:45-3:15*  | [Class: Intro to Functions](./functions_slides.markdown) |
-|*3:15-4:15*  | [Lab: Functions](./functions_lab.markdown) |
+|*1:00-1:15* | [Class: For & For-In](./for_in_loops_slides.markdown) |
+|*1:15-1:45*| [Lab: Practicing Loops](./for_in_loops_lab.markdown) |
+|*1:45-2:00*  | [Brain Break](./brain_break_resources.markdown) |
+|*2:00-2:15*  | [Class: Dictionaries](./dictionaries_slides.markdown) |
+|*2:15-3:00*  | [Lab: Using Dictionaries](./dictionaries_lab.markdown) |
+|*3:00-3:30*  | [Class: Classes and Objects](./classes_objects_slides.markdown) |
+|*3:30-4:15*  | [Lab: Classes and Objects](./classes_objects_lab.markdown) |
 |*4:15-4:45*  | Wrap Up |
 
 ### Day 3
-
-|Time|Session|
-|---|---|
-|*9:15-9:30*  | [Stand Up & Journaling](./opening_circle_stand_up.markdown)|
-|*9:30-10:00* | [Class: For & For-In](./for_in_loops_slides.markdown) |
-|*10:00-11:00*| [Lab: Practicing Loops](./for_in_loops_lab.markdown) |
-|*11:00-12:00*| [Challenge: Paired Worktime](./challenges) |
-|*12:00-1:00* | Lunch |
-|*1:00-1:30*  | [Class: Dictionaries](./dictionaries_slides.markdown) |
-|*1:30-2:15*  | [Lab: Using Dictionaries](./dictionaries_lab.markdown) |
-|*2:15-2:30*  | [Brain Break](./brain_break_resources.markdown) |
-|*2:30-3:15*  | [Class: Classes and Objects](./classes_objects_slides.markdown) |
-|*3:15-4:15*  | [Lab: Classes and Objects](./classes_objects_lab.markdown) |
-|*4:15-4:45*  | Wrap Up |
-
-### Day 4
 
 |Time|Session|
 |---|---|
@@ -68,7 +57,7 @@
 |*3:45-4:15*  | Gallery Walk |
 |*4:15-4:45*  | Wrap Up |
 
-### Day 5
+### Day 4
 
 |Time|Session|
 |---|---|
@@ -85,7 +74,7 @@
 |*3:15-4:15*  | Feedback: Retrospective & Survey |
 |*4:15-4:45*  | Wrap Up |
 
-### Day 6
+### Day 5
 
 |Time|Session|
 |---|---|
@@ -100,6 +89,9 @@
 |*3:00-3:15*  | [Brain Break](./brain_break_resources.markdown) |
 |*3:15-4:15*  | [Lab: Accessing the Camera & Photo Library](./access_camera_lab.markdown) |
 |*4:15-4:45*  | Wrap Up |
+
+### Day 6
+
 
 ### Day 7
 

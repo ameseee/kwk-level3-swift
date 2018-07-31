@@ -16,7 +16,7 @@ slidenumbers: true
 ## Technical Vocabulary
 
 * String
-* Integer
+* Integer | Double
 * Interpolation
 * Variable
 * Constant
@@ -187,14 +187,14 @@ The computer reads anything inside of the `\()` as swift code - it will look for
 
 # Vocab Reflection
 
-Using your notes and what you learned in this class, write your definition for today's vocab words:
-
 * String
-* Integer
+* Integer | Double
 * Interpolation
 * Variable
 * Constant
 * Keyword
+
+^ Using your notes and what you learned in this class, write your definition for today's vocab words:
 
 ---
 
