@@ -32,11 +32,11 @@
 |*10:45-11:30*| [Lab: Arrays & Iteration](./arrays_lab.markdown)
 |*11:30-12:00*| [Challenge: Paired Worktime](./challenges) OR Early Lunch |
 |*12:00-1:00* | Lunch |
-|*1:00-1:15*  | [Class: For & For-In](./for_in_loops_slides.markdown) |
-|*1:15-1:45*  | [Lab: Practicing Loops](./for_in_loops_lab.markdown) |
-|*1:45-2:00*  | [Brain Break](./brain_break_resources.markdown) |
-|*2:00-2:15*  | [Class: Dictionaries](./dictionaries_slides.markdown) |
-|*2:15-3:00*  | [Lab: Using Dictionaries](./dictionaries_lab.markdown) |
+|*1:00-1:15*  | [Class: Dictionaries](./dictionaries_slides.markdown) |
+|*1:15-2:00*  | [Lab: Using Dictionaries](./dictionaries_lab.markdown) |
+|*2:00-2:15*  | [Class: For & For-In](./for_in_loops_slides.markdown) |
+|*2:15-2:45*  | [Lab: Practicing Loops](./for_in_loops_lab.markdown) |
+|*2:45-3:00*  | [Brain Break](./brain_break_resources.markdown) |
 |*3:00-3:30*  | [Class: Classes and Objects](./classes_objects_slides.markdown) |
 |*3:30-4:15*  | [Lab: Classes and Objects](./classes_objects_lab.markdown) |
 |*4:15-4:45*  | Wrap Up |
