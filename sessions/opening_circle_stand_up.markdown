@@ -27,7 +27,8 @@ In your notebooks, take 5 minutes to reflect on the following questions
 
 # Day 2: Stand Up
 
-* What did you learn from yesterday?
+* How are you coming in today?
+* What's one interesting thing you learned yesterday?
 * What's a specfic goal you have for yourself today?
 
 ---
