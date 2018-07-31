@@ -26,14 +26,14 @@
 |---|---|
 |*9:00-9:15*  | [Stand Up & Journaling](./opening_circle_stand_up.markdown) |
 |*9:15-9:30*  | [Class: Intro to Functions](./functions_slides.markdown) |
-|*9:30-10:15*  | [Lab: Functions](./functions_lab.markdown) |
-|*10:15-10:30*  | [Brain Break](./brain_break_resources.markdown) |
-|*10:30-10:45*  | [Class: Arrays](./arrays_slides.markdown)
-|*10:45-11:30*  | [Lab: Arrays & Iteration](./arrays_lab.markdown)
+|*9:30-10:15* | [Lab: Functions](./functions_lab.markdown) |
+|*10:15-10:30*| [Brain Break](./brain_break_resources.markdown) |
+|*10:30-10:45*| [Class: Arrays](./arrays_slides.markdown)
+|*10:45-11:30*| [Lab: Arrays & Iteration](./arrays_lab.markdown)
 |*11:30-12:00*| [Challenge: Paired Worktime](./challenges) OR Early Lunch |
 |*12:00-1:00* | Lunch |
-|*1:00-1:15* | [Class: For & For-In](./for_in_loops_slides.markdown) |
-|*1:15-1:45*| [Lab: Practicing Loops](./for_in_loops_lab.markdown) |
+|*1:00-1:15*  | [Class: For & For-In](./for_in_loops_slides.markdown) |
+|*1:15-1:45*  | [Lab: Practicing Loops](./for_in_loops_lab.markdown) |
 |*1:45-2:00*  | [Brain Break](./brain_break_resources.markdown) |
 |*2:00-2:15*  | [Class: Dictionaries](./dictionaries_slides.markdown) |
 |*2:15-3:00*  | [Lab: Using Dictionaries](./dictionaries_lab.markdown) |

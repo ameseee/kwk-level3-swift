@@ -17,7 +17,7 @@ slidenumbers: true
 
 * Class
 * Object
-* Property
+* Property | Instance Variable
 * Initializer
 * Actions
 
@@ -58,7 +58,7 @@ class Student {
 
 ---
 
-# Working with Classes in Xcode, Properties
+# Working with Classes, Properties/Instance Variables
 
 * Xcode --> create project --> macOS --> Command Line Tool
 * create new Swift file inside the main directory. Call it `StudentClass`. Inside:
@@ -75,7 +75,7 @@ Add inside of the class code block:
 var grade = 10
 var studying = "Swift"
 var name = "pick a name!"
-Explain that "grade" and "studying" and "name" are PROPERTIES of this class
+Explain that "grade" and "studying" and "name" are PROPERTIES/Instance Variables of this class
 One problem - the name is going to be the same for every student. Next slide explains.
 
 ---
@@ -109,7 +109,7 @@ Explain to the students that by calling "dot then a property" we are **accessing
 
 # Initializer
 
-* init (Initializer Declaration)
+* `init` (Initializer Declaration)
 * It runs once and only once - when we create a new object from the class
 * It is written inside the class, below any property variables we declare
 
@@ -141,15 +141,26 @@ You should now see the print statement reflecting the new name that was passed i
 
 # Actions
 
-* Classes can have properties AND actions!
+* Classes can have properties/instance variables AND actions!
 * Actions are simply functions that are associated with a class.
 
 ^ Inside the code block of the class, we can add functions!
-This means that every object created from a class, will have **access** to this function. Let's write one so we can see it in action. Vocab - ACCESS means we are allowed to use in this case
+This means that every object created from a class, will have **access** to this function. Let's write one so we can see it in action.
+Vocab - ACCESS means we are allowed to use
 <Move to Xcode to model>
 MODEL: write a function `writeCode() { }` inside the code block, print a string of "\(name) is busy writing code!"
 Go back to main.swift, call newStudent.writeCode() and `cmd + r`! You should see a sentence printed to the console.
 Re-iterate that `writeCode()` is a function, but more specifically an ACTION for this class, and this class only. You can even try calling it in main.swift withOUT the newStudent, preceding it, and see an error!
+
+---
+
+# Turn & Talk
+
+* What is the difference between a class and an object?
+  - Give an example
+  - Any metaphors besides cookie cutters/cookies?
+
+^ Turn and talk, then share out. Next slide has definition.
 
 ---
 

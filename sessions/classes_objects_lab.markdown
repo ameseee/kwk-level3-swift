@@ -26,13 +26,13 @@ In programming, we think of `classes` as blueprints or cookie cutters. They give
 #### Expected
 
 * With your partner, brainstorm another class. Remember, we used Student because all students share some things, and also had some unique things about them. If you are struggling for an idea, Car and Dog are both commonly used to practice work with classes 🚗 🐶
-* With your partner, write a list of properties your class should have. What is true about every ____? (If you are talking about a car, every car has wheels...)
+* With your partner, write a list of properties/instance variables your class should have. What is true about every ____? (If you are talking about a car, every car has wheels...)
 * What function, or action, do you want your _____ to take? (If it's a dog, I would want it to bark, sit, fetch...) Come up with at least 2 actions!
 * Create a new (macOS, Swift) file inside of the ClassesAndObjects folder, name it the same thing you will name your class
 * Write your class
-* Create variables for the properties your class needs
+* Create the properties/instance variables your class needs
 * Write the actions for your class
-* In main.swift, create at least one object with this class and do some printing to make sure your class is behaving as expected
+* In main.swift, create at least one object from this class and do some printing to make sure your class is behaving as expected!
 * Add in an `init` function so you can pass your class something specific to the object you are creating. (For a car, I would definitely want to make sure the color could change!)
 
 #### Extension
