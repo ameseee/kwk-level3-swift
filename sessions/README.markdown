@@ -89,9 +89,9 @@
 |*1:30-2:00*   | [Class: Core Data](./core_data_slides.markdown) |
 |*2:00-2:45*   | [Project: Core Data in ViewFinder](./core_data_lab.markdown) |  
 |*2:45-3:00*   | [Brain Break](./brain_break_resources.markdown) |
-|*3:00-3:30*   | [Class: Segues](./segue_slides.markdown) |
-|*3:30-4:15*   | [Project: Delete Photo Functionality](./delete_functionality_lab.markdown) |  
-|*4:15-4:45*   | [Wrap Up](./wrap-up.markdown) |
+|*3:00-3:45*   | [Class: Segues](./segue_slides.markdown) |
+|*3:45-4:30*   | [Project: Build Photo Detail View](./build_photo_detail_view.markdown) |
+|*4:30-4:45*   | [Wrap Up](./wrap-up.markdown) |
 
 ### Day 6
 
@@ -102,7 +102,7 @@
 |*10:00-10:30*| [Pimp My Terminal](ADD LINK) |
 |*10:30-11:45*| [Git and GitHub](ADD LINK) |
 |*11:45-12:45*| Lunch |
-|*12:45-1:30* | [Project: Build Photo Detail View](./build_photo_detail_view.markdown) |
+|*12:45-1:30* | [Project: Delete Photo Functionality](./delete_functionality_lab.markdown) |  
 |*1:30-2:15*  | [Project: Choose your own ... Feature!](./choose_your_own_lab.markdown) |  
 |*2:15-2:45*  | Prep for Mini-Demo |
 |*2:45-3:15*  | Mini-Demo |  
