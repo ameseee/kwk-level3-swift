@@ -52,6 +52,37 @@ slidenumbers: true
 
 ---
 
+# The code behind the StoryBoard...
+
+![inline](slide_images/source_code.png)
+
+^ As we drag and drop and style UI Elements, XCode is writing XML for us - a markup language similar to HTML! Check it out by right clicking on the storyboard, selecting Open As, then Source Code.
+
+---
+
+# The code behind the StoryBoard...
+
+Notice:
+  - Each UI Object
+  - It's constraints (nested inside)
+  - Any color, font-size, etc.
+
+^ MODEL: Show them how to go see the source code, read through a chunk to explore as a class. TELL THEM: You don't have-to have-to know this; it's good to know what's happening behind the scenes though!
+
+---
+
+# Constraints
+
+* Everything looks great on my screen, but in the simulator... not so much.
+* _Constraints_ are settings on UI Objects that make them appear the way we expect on ever device
+
+^ MODEL: Go back to Xcode, select one UI Object at a time, then apply the following constraints:
+- View - 0 on all sides
+- Label - set a width, distance from top of screen, horizontally center
+- Image - set a width and height, distance from label, horizontally center
+
+---
+
 # Nav Bar and Tool Bar
 
 * Drag and drop a `Navigation Bar` onto the StoryBoard
@@ -65,18 +96,6 @@ slidenumbers: true
 - Bar Button Item (or two). Model how to change to icon, or text.
 - ToolBar
 - Bar Button Item (2+), with Flexible Space Bar Button Items in between
-
----
-
-# Constraints
-
-* Everything looks great on my screen, but in the simulator... not so much.
-* _Constraints_ are settings on UI Objects that make them appear the way we expect on ever device
-
-^ MODEL: Go back to Xcode, select one UI Object at a time, then apply the following constraints:
-- View - 0 on all sides
-- Label - set a width, distance from top of screen, horizontally center
-- Image - set a width and height, distance from label, horizontally center
 
 ---
 
