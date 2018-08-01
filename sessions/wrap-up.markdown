@@ -25,7 +25,9 @@ slidenumbers: true
 
 # Day 3
 
-
+* What did you love the most about today?
+* What was your biggest challenge of the day?
+* What are you curious about with storyboards?
 
 ---
 
