@@ -12,7 +12,7 @@ slidenumbers: true
 
 ---
 
-# A slide
+# Actions & Outlets
 
 * Actions and Outlets are the way that our program lets the design files communicate with the code files. The connection allows us to refer to the objects in the design file, but inside of our code file.
 * Outlet - when you want to change the appearance of something
