@@ -50,45 +50,32 @@
 |*10:00-11:00*| [Iteration 0: Up and Running](../aviatrix/i0_up_and_running.markdown) |
 |*11:00-12:00*| [Iteration 1: Destinations](../aviatrix/i1_destinations.markdown) |
 |*12:00-1:00* | Lunch |
-|*1:00-2:00*  | [Iteration 1: Routes](../aviatrix/i1_destinations.markdown) |
-|*2:00-3:00*  | [Iteration 2: Distance & Fuel](../aviatrix/i2_distance_and_fuel.markdown) |
-|*3:00-3:15*  | [Brain Break](./brain_break_resources.markdown) |
-|*3:15-3:45*  | Worktime: Finishing Touches |
-|*3:45-4:15*  | Gallery Walk |
+|*1:00-2:00*  | [Iteration 2: Distance & Fuel](../aviatrix/i2_distance_and_fuel.markdown) |
+|*2:00-2:15*  | [Brain Break](./brain_break_resources.markdown) |
+|*2:15-2:45*  | Aviatrix Reflection |
+|*2:45-3:15*  | [Class: Design Theory](./design_theory_slides.markdown) |
+|*3:15-4:15*  | [Class: StoryBoard](./storyboard_slides.markdown) |
 |*4:15-4:45*  | [Wrap Up](./wrap-up.markdown) |
 
 ### Day 4
 
 |Time|Session|
 |---|---|
-|*9:15-9:30*  | [Stand Up & Journaling](./opening_circle_stand_up.markdown) |
-|*9:30-10:15* | [Challenge: Paired Worktime](./challenges) |
-|*10:15-11:00*| [Class: Design Theory](./design_theory_slides.markdown) |
-|*11:00-11:15*| [Brain Break](./brain_break_resources.markdown)|
-|*11:15-12:00*| [Class: StoryBoard](./storyboard_slides.markdown) |
-|*12:00-1:00* | Lunch |
-|*1:00-2:15*  | [Lab: StoryBoard](./storyboard_lab.markdown) |
-|*2:15-2:45*  | [Class: Side Loading](./side_loading_slides.markdown) |
-|*2:45-3:00*  | [Brain Break](./brain_break_resources.markdown) |
-|*3:00-3:15*  | Demo: Viewfinder |
-|*3:15-4:15*  | Feedback: Retrospective & Survey |
+|*9:15-9:30*   | [Stand Up & Journaling](./opening_circle_stand_up.markdown) |
+|*9:30-10:15*  | [Challenge: Paired Worktime](./challenges) |
+|*10:15-:11:00*| [Lab: StoryBoard](./storyboard_lab.markdown) |
+|*11:00-11:45* | [Class: Side Loading](./side_loading_slides.markdown) |
+|*11:45-12:45* | Lunch |
+|*12:45-1:15*| [Class: Actions & Outlets](./actions_outlets_slides.markdown) |
+|*1:15-2:00*| [Lab: Actions & Outlets](./actions_outlets_lab.markdown) |
+|*2:00-2:15*  | [Brain Break](./brain_break_resources.markdown) |
+|*2:15-2:45*  | [Lab: Plan Your Design](./plan_your_design_lab.markdown) |
+|*2:45-3:15*  | [Class: Accessing the Camera](./access_camera_slides.markdown) |
+
 |*4:15-4:45*  | [Wrap Up](./wrap-up.markdown) |
 
 ### Day 5
 
-|Time|Session|
-|---|---|
-|*9:15-9:30*  | [Stand Up & Journaling](./opening_circle_stand_up.markdown) |
-|*9:30-10:15* | [Challenge: Paired Worktime](./challenges) |
-|*10:15-11:00*| [Class: Actions & Outlets](./actions_outlets_slides.markdown) |
-|*11:00-12:00*| [Lab: Actions & Outlets](./actions_outlets_lab.markdown) |
-|*12:00-1:00* | Lunch |
-|*1:00-1:30*  | Collaboration: Formal DTR |  | EM |
-|*1:30-2:30*  | [Lab: Plan Your Design](./plan_your_design_lab.markdown) |
-|*2:30-3:00*  | [Class: Accessing the Camera](./access_camera_slides.markdown) |
-|*3:00-3:15*  | [Brain Break](./brain_break_resources.markdown) |
-|*3:15-4:15*  | [Lab: Accessing the Camera & Photo Library](./access_camera_lab.markdown) |
-|*4:15-4:45*  | [Wrap Up](./wrap-up.markdown) |
 
 ### Day 6
 
