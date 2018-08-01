@@ -29,17 +29,27 @@ In your notebooks, take 5 minutes to reflect on the following questions
 
 * How are you coming in today?
 * What's one interesting thing you learned yesterday?
-* What's a specfic goal you have for yourself today?
+* What's a specific goal you have for yourself today?
 
 ---
 
-# Day 3: Stand Up & Journaling
-
-In your notebooks, take 5 minutes to reflect on the following questions
+# Day 3: Stand Up
 
 * Where were you challenged yesterday?
 * How did you work through being challenged?
 * What did you learn about yourself in facing that challenge?
+
+---
+
+# DTR
+
+Discuss with your Aviatrix partner:
+
+* Do you need anything before we get to work?
+* How comfortable do you feel with Classes and Objects?
+* What helps you do your best work?
+* What do we consider "success"?
+* LOGISTICS: How often will we switch driver/navigator? Where do you feel most comfortable working?
 
 ---
 
