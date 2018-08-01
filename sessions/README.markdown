@@ -61,71 +61,78 @@
 
 |Time|Session|
 |---|---|
-|*9:15-9:30*   | [Stand Up & Journaling](./opening_circle_stand_up.markdown) |
-|*9:30-10:15*  | [Challenge: Paired Worktime](./challenges) |
-|*10:15-:11:00*| [Lab: StoryBoard](./storyboard_lab.markdown) |
-|*11:00-11:45* | [Class: Side Loading](./side_loading_slides.markdown) |
-|*11:45-12:45* | Lunch |
-|*12:45-1:15*| [Class: Actions & Outlets](./actions_outlets_slides.markdown) |
-|*1:15-2:00*| [Lab: Actions & Outlets](./actions_outlets_lab.markdown) |
+|*9:00-9:15*  | [Stand Up & Journaling](./opening_circle_stand_up.markdown) |
+|*9:15-10:00* | [Challenge: Paired Worktime](./challenges) |
+|*10:00-10:30*| [Class: Constraints, Icons and XML](./storyboard_slides.markdown) |
+|*10:30-11:00*| [Lab: StoryBoard](./storyboard_lab.markdown) |
+|*11:00-11:45*| [Class: Side Loading](./side_loading_slides.markdown) |
+|*11:45-12:45*| Lunch |
+|*12:45-1:15* | [Class: Actions & Outlets](./actions_outlets_slides.markdown) |
+|*1:15-2:00*  | [Lab: Actions & Outlets](./actions_outlets_lab.markdown) |
 |*2:00-2:15*  | [Brain Break](./brain_break_resources.markdown) |
-|*2:15-2:45*  | [Lab: Plan Your Design](./plan_your_design_lab.markdown) |
-|*2:45-3:15*  | [Class: Accessing the Camera](./access_camera_slides.markdown) |
-|*3:15-4:15*  | TBD/Flex |
-|*4:15-4:45*  | [Wrap Up](./wrap-up.markdown) |
+|*2:45-3:00*  | [Class: Accessing the Camera](./access_camera_slides.markdown) |
+|*3:00-3:45*  | [Lab: Accessing the Camera](./access_camera_lab.markdown) |
+|*3:45-4:30*  | [Lab: DTR & Plan Your Design](./plan_your_design_lab.markdown) |
+|*4:30-4:45*  | [Wrap Up](./wrap-up.markdown) |
 
 ### Day 5
 
 |Time|Session|
 |---|---|
-|*9:15-9:30*  | [Stand Up & Journaling](./opening_circle_stand_up.markdown) |
-|*9:30-10:15* | [Challenge: Paired Worktime](./challenges) |
-|*10:15-10:30*| [Brain Break](./brain_break_resources.markdown) |
-|*10:30-11:00*| [Class: Displaying Photos](./displaying_photos_slides.markdown) |
-|*11:00-11:45*| [Lab: Displaying Photos](./displaying_photos_lab.markdown) |
+|*9:00-9:15*   | [Stand Up & Journaling](./opening_circle_stand_up.markdown) |
+|*9:15-10:00*  | [Challenge: Paired Worktime](./challenges) |
+|*10:00-10:15* | [Class: Displaying Photos](./displaying_photos_slides.markdown) |
+|*10:15-11:00* | [Lab: Displaying Photos](./displaying_photos_lab.markdown) |
+|*11:00-11:45* | [Lab: ViewFinder UI](./viewfinder_ui_lab.markdown) |
 |*11:45-12:45* | Lunch |
-|*12:45-1:30*  | [Lab: ViewFinder UI](./viewfinder_ui_lab.markdown) |
-|*1:30-2:15*  | [Lab: Implement Camera and Displaying Photos](./implement_camera_display_photos_lab.markdown) |
-|*2:15-2:30*  | [Brain Break](./brain_break_resources.markdown) |
-|*2:30-3:00*  | [Trajectory: Careers in Tech](./careers_in_tech.markdown) |
-|*3:00-3:30*  | Lab: Careers Research |
-|*3:30-4:15* | [Challenge: Paired Worktime](./challenges) |
-|*4:15-4:45*  | [Wrap Up](./wrap-up.markdown) |
+|*12:45-1:30*  | [Lab: Implement Camera and Displaying Photos](./implement_camera_display_photos_lab.markdown) |
+|*1:30-2:00*   | [Class: Core Data](./core_data_slides.markdown) |
+|*2:00-2:45*   | [Lab: Core Data in ViewFinder](./core_data_lab.markdown) |  
+|*2:45-3:00*   | [Brain Break](./brain_break_resources.markdown) |
+|*3:00-3:30*   | [Class: Segues](./segue_slides.markdown) |
+|*3:30-4:15*   | [Lab: Delete Photo Functionality](./delete_functionality_lab.markdown) |  
+|*4:15-4:45*   | [Wrap Up](./wrap-up.markdown) |
 
 ### Day 6
 
 |Time|Session|
 |---|---|
-|*9:15-9:30*  | [Stand Up & Journaling](./opening_circle_stand_up.markdown) |
-|*9:30-10:15* | [Challenge: Paired Worktime](./challenges) |
-|*10:15-10:45*| [Class: Core Data](./core_data_slides.markdown) |
-|*10:45-11:45*| [Lab: Core Data in ViewFinder](./core_data_lab.markdown) |  
-|*1:45-12:45* | Lunch |
-|*1:45-1:15*  | [Class: Segues](./segue_slides.markdown) |
-|*1:15-2:15*  | [Lab: Build Photo Detail View](./build_photo_detail_view.markdown) |
-|*2:15-2:30*  | [Brain Break](./brain_break_resources.markdown) |  | |
-|*2:30-3:00*  | [Lab: Delete Photo Functionality](./delete_functionality_lab.markdown) |  
-|*3:00-4:15*  | TBD |
-|*4:15-4:45*  | [Wrap Up](./wrap-up.markdown) |
+|*9:00-9:15*  | [Stand Up & Journaling](./opening_circle_stand_up.markdown) |
+|*9:15-10:00* | [Challenge: Paired Worktime](./challenges) |
+|*10:00-10:30*| [Pimp My Terminal](ADD LINK) |
+|*10:30-11:45*| [Git and GitHub](ADD LINK) |
+|*11:45-12:45*| Lunch |
+|*12:45-1:30* | [Lab: Build Photo Detail View](./build_photo_detail_view.markdown) |
+|*1:30-2:15*  | [Lab: Choose your own ... Feature!](./choose_your_own_lab.markdown) |  
+|*2:15-2:45*  | Prep for Mini-Demo |
+|*2:45-3:15*  | Mini-Demo |  
+
+|*4:30-4:45*  | [Wrap Up](./wrap-up.markdown) |
 
 ### Day 7
 
-
-
+|Time|Session|
+|---|---|
+|*9:00-9:15*  | [Stand Up & Journaling](./opening_circle_stand_up.markdown) |
+|*9:15-10:00* | [Challenge: Paired Worktime](./challenges) |
+|*2:30-3:00*  | [Trajectory: Careers in Tech](./careers_in_tech.markdown) |
+|*3:00-3:30*  | Lab: Careers Research |
 
 ### Day 8
 
-
+|Time|Session|
+|---|---|
+|*9:00-9:15*  | [Stand Up & Journaling](./opening_circle_stand_up.markdown) |
+|*9:15-10:00* | [Challenge: Paired Worktime](./challenges) |
 
 ### Day 9
 
 |Time|Session|
 |---|---|
-|*9:15-9:30*  | [Stand Up & Journaling](./opening_circle_stand_up.markdown) |
-|*9:30-10:15* | [Challenge: Paired Worktime](./challenges) |
-|*10:15-12:00*| [Lab: Choose your own ... Feature!](./choose_your_own_lab.markdown) |  
+|*9:00-9:15*  | [Stand Up & Journaling](./opening_circle_stand_up.markdown) |
+|*9:15-10:00* | [Challenge: Paired Worktime](./challenges) |
 |*12:00-1:00* | Lunch |
-|*1:15-1:45*  | [Class: How to Demo](./how_to_demo.markdown) |
+|*1:15-1:30*  | [Class: How to Demo](./how_to_demo.markdown) |
 |*1:45-2:45*  | Lab: Writing Your Demo |
 |*2:45-3:45*  | Class: Demo Practice |
 |*3:45-4:15*  | [Lab: Taking Your Work With You](./taking_work_with_you.markdown) |
