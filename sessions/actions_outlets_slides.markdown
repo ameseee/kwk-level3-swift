@@ -15,8 +15,8 @@ slidenumbers: true
 # Actions & Outlets
 
 * Actions and Outlets are the way that our program lets the design files communicate with the code files. The connection allows us to refer to the objects in the design file, but inside of our code file.
-* Outlet - when you want to change the appearance of something
-* Actions - when you want the code to know that a user took an action
+* Outlet - when you want to change the appearance of something (the reference object)
+* Actions - when you want the code to know that a user took an action (the method that is used to perform some type of user action)
 
 
 ^ Have the students take note of the two - we will constantly be using these terms and having to decide whether a connection needs to be an action or an outlet.
