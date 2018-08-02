@@ -31,3 +31,10 @@ slidenumbers: true
 
 ---
 
+# Day 4
+
+* Now that you've learned a good bit about language syntax, Storyboards, and the ViewController (code that is connected to the Interface Builder), what is your favorite part?
+
+* What's one thing you want to really focus on to ensure a successful pairing for ViewFinder?
+
+---
