@@ -91,9 +91,8 @@ OPTIONAL MODEL: It may be more helpful for the students to see you do this a cou
 
 ```
 @IBAction func submitButtonTapped(_ sender: UIButton) {
-    if let newTitle = textField.text {
-        appTitle.text = newTitle
-    }
+    let newTitle = textField.text!
+    appTitle.text = newTitle   
 }
 ```
 
