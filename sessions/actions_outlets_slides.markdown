@@ -37,6 +37,9 @@ Click on the small icon in the top right corner that has two intersecting circle
 ![inline](slide_images/assistant-editor.png)
 
 ^ When you are in the 'Assistant Editor', you should see two panes in the Interface Builder - the storyboard on the left, the code on the right. (Sometimes it gets a little wonky and you have to change which is showing where - heads up)
+Let's do a quick recap about the files we are working with:
+*Main.storyboard* - the visual interface editor. We use this file to design our app user interface
+*ViewController.swift* - contains the source code of our application. We use this file to write any code related to our app 
 
 ---
 
