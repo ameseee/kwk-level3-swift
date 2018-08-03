@@ -85,14 +85,13 @@
 |*9:15-10:00*  | [Challenge: Paired Worktime](./challenges) |
 |*10:00-10:30* | [Lab: Plan Your Design](./plan_your_design_lab.markdown) |
 |*10:30-10:45* | [Brain Break](./brain_break_resources.markdown) |
-|*10:45-11:15* | [Class: Segues](./segue_slides.markdown) |
-|*11:15-11:45* | [Project: ViewFinder UI](./viewfinder_ui_lab.markdown) |
-|*11:45-12:45* | Lunch |
-|*12:45-1:30*  | [Project: Implement Camera and Displaying Photos](./implement_camera_display_photos_lab.markdown) |
-|*1:30-2:00*   | [Class: Core Data](./core_data_slides.markdown) |
-|*2:00-3:15*   | [Project: Core Data in ViewFinder](./core_data_lab.markdown) |  
-|*3:15-3:30*   | [Brain Break](./brain_break_resources.markdown) |
-|*3:30-4:30*   | [Project: Build Photo Detail View](./build_photo_detail_view.markdown) |
+|*10:45-11:00* | [Class: Segues](./segue_slides.markdown) |
+|*11:00-11:30* | [Project: ViewFinder UI](./viewfinder_ui_lab.markdown) |
+|*11:30-12:30* | Lunch |
+|*12:30-2:30*  | [Project: Implement Camera and Displaying Photos](./implement_camera_display_photos_lab.markdown) |
+|*2:30-2:45*   | [Brain Break](./brain_break_resources.markdown) |
+|*2:45-4:00*   | [Project: Implement Camera and Displaying Photos](./implement_camera_display_photos_lab.markdown) |
+|*4:00-4:30*   | [Class: Core Data](./core_data_slides.markdown) |
 |*4:30-4:45*   | [Wrap Up](./wrap-up.markdown) |
 
 ### Day 6
@@ -104,12 +103,11 @@
 |*10:00-10:30*| [Pimp My Terminal](ADD LINK) |
 |*10:30-11:45*| [Git and GitHub](ADD LINK) |
 |*11:45-12:45*| Lunch |
-|*12:45-1:15* | [Project: Delete Photo Functionality](./delete_functionality_lab.markdown) |  
-|*1:15-2:15*  | [Project: Choose your own ... Feature!](./choose_your_own_lab.markdown) |  
-|*2:15-2:30*   | [Brain Break](./brain_break_resources.markdown) |
-|*2:30-3:00*  | Prep for Mini-Demo |
-|*3:00-3:30*  | Mini-Demo |  
-|*3:00-3:30*  | TBD |  
+|*12:45-1:15* | [Class: Core Data](./core_data_slides.markdown) |
+|*1:15-2:30*  | [Project: Core Data in ViewFinder](./core_data_lab.markdown) |
+|*2:30-3:30*   | [Project: Build Photo Detail View](./build_photo_detail_view.markdown) |
+|*3:30-4:30* | [Project: Delete Photo Functionality](./delete_functionality_lab.markdown) |  
+|*3:30-4:30*  | [Project: Choose your own ... Feature!](./choose_your_own_lab.markdown) |  
 |*4:30-4:45*  | [Wrap Up](./wrap-up.markdown) |
 
 ### Day 7
@@ -118,9 +116,12 @@
 |---|---|
 |*9:00-9:15*  | [Stand Up & Journaling](./opening_circle_stand_up.markdown) |
 |*9:15-10:00* | [Challenge: Paired Worktime](./challenges) |
-|*10:00-12:00*| AR Labs |
-|*10:00-1:00* | Lunch |
-|*10:00-2:30* | Debugging The Gnder Gap |
+|*10:00-10:30*| Finishing Touches on ViewFinder |
+|*10:30-11:00*| Prep for Mini-Demo |
+|*11:00-11:45*| Mini-Demo |
+|*11:45-12:45*| Lunch |
+|*12:45-2:15* | Debugging The Gender Gap |
+|*2:15-2:30*  | Brain Break |
 |*2:30-3:00*  | [Trajectory: Careers in Tech](./careers_in_tech.markdown) |
 |*3:00-3:30*  | Lab: Careers Research |
 |*3:00-3:30*  | TBD |  
