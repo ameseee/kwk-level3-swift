@@ -38,3 +38,11 @@ slidenumbers: true
 * What's one thing you want to really focus on to ensure a successful pairing for ViewFinder?
 
 ---
+
+# Day 5
+
+* Week one is over.  What is your biggest take away from this week?
+* What did you learn about yourself technically?  
+* What did you learn about yourself professionally? (think about how you work with others and face challenges)
+
+---
