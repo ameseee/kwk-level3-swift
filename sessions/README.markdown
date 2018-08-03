@@ -71,8 +71,10 @@
 |*1:15-2:00*  | [Lab: Actions & Outlets](./actions_outlets_lab.markdown) |
 |*2:00-2:15*  | [Brain Break](./brain_break_resources.markdown) |
 |*2:45-3:00*  | [Class: Accessing the Camera](./access_camera_slides.markdown) |
-|*3:00-3:45*  | [Lab: Accessing the Camera](./access_camera_lab.markdown) |
-|*3:45-4:30*  | [Lab: DTR & Plan Your Design](./plan_your_design_lab.markdown) |
+|*3:00-3:30*  | [Lab: Accessing the Camera](./access_camera_lab.markdown) |
+|*3:30-3:45* | [Class: Displaying Photos](./displaying_photos_slides.markdown) |
+|*3:45-4:00* | [Lab: Displaying Photos](./displaying_photos_lab.markdown) |
+|*4:00-4:30*  | [Lab: DTR & Plan Your Design](./plan_your_design_lab.markdown) |
 |*4:30-4:45*  | [Wrap Up](./wrap-up.markdown) |
 
 ### Day 5
@@ -81,9 +83,9 @@
 |---|---|
 |*9:00-9:15*   | [Stand Up & Journaling](./opening_circle_stand_up.markdown) |
 |*9:15-10:00*  | [Challenge: Paired Worktime](./challenges) |
-|*10:00-10:15* | [Class: Displaying Photos](./displaying_photos_slides.markdown) |
-|*10:15-11:00* | [Lab: Displaying Photos](./displaying_photos_lab.markdown) |
-|*11:00-11:45* | [Project: ViewFinder UI](./viewfinder_ui_lab.markdown) |
+|*10:00-10:30*  | [Lab: Plan Your Design](./plan_your_design_lab.markdown) |
+|*10:30-10:45*   | [Brain Break](./brain_break_resources.markdown) |
+|*10:45-11:45* | [Project: ViewFinder UI](./viewfinder_ui_lab.markdown) |
 |*11:45-12:45* | Lunch |
 |*12:45-1:30*  | [Project: Implement Camera and Displaying Photos](./implement_camera_display_photos_lab.markdown) |
 |*1:30-2:00*   | [Class: Core Data](./core_data_slides.markdown) |
