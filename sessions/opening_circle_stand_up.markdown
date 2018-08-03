@@ -53,13 +53,10 @@ Discuss with your Aviatrix partner:
 
 ---
 
-# Day 4: Stand Up & Journaling
+# Day 4: Stand Up
 
-In your notebooks, take 5 minutes to reflect on the following questions
-
+* How are you coming in?
 * What is one thing you are looking forward to today?
-* What do you find fun about working in pairs on programming?
-* What is challenging about working in pairs on programming?
 
 ---
 
