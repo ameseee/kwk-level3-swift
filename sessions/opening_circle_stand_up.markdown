@@ -60,6 +60,13 @@ Discuss with your Aviatrix partner:
 
 ---
 
+# Day 5: Stand Up
+
+* How are you coming in today?
+* Which piece of functionality are you most excited to build in ViewFinder?
+
+---
+
 # Day 5: Stand Up & Journaling
 
 In your notebooks, take 5 minutes to reflect on the following questions
