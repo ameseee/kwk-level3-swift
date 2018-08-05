@@ -132,7 +132,7 @@
 |Time|Session|
 |---|---|
 |*9:00-9:15*  | [Stand Up & Journaling](./opening_circle_stand_up.markdown) |
-|*9:15-10:45* | AR Exploration |
+|*9:15-10:45* | [AR Exploration](./ar.markdown) |
 |*10:45-11:45*| Brainstorm & Project Pitch |
 |*11:45-12:45*| Lunch |
 |*12:45-1:00* | DTR |
