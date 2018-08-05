@@ -115,7 +115,7 @@
 |Time|Session|
 |---|---|
 |*9:00-9:15*  | [Stand Up & Journaling](./opening_circle_stand_up.markdown) |
-|*9:15-10:00* | [Challenge: Paired Worktime](./challenges) |
+|*9:15-10:00* | [Timer Challenge](./challenges) |
 |*10:00-10:30*| Finishing Touches on ViewFinder |
 |*10:30-11:00*| Prep for Mini-Demo |
 |*11:00-11:45*| Mini-Demo |
@@ -132,28 +132,31 @@
 |Time|Session|
 |---|---|
 |*9:00-9:15*  | [Stand Up & Journaling](./opening_circle_stand_up.markdown) |
-|*9:15-10:00* | [Challenge: Paired Worktime](./challenges) |
+|*9:15-10:45* | AR Exploration |
+|*10:45-11:45*| Brainstorm & Project Pitch |
+|*11:45-12:45*| Lunch |
+|*12:45-1:00* | DTR |
+|*1:00-2:00*  | Plan Your Design |
+|*2:00-3:00*  | Wireframes |
+|*3:00-4:30*  | Start Builing Personal Projects |
+|*4:30-4:45*  | [Wrap Up](./wrap-up.markdown) |
 
 ### Day 9
 
 |Time|Session|
 |---|---|
 |*9:00-9:15*  | [Stand Up & Journaling](./opening_circle_stand_up.markdown) |
-|*9:15-10:00* | [Challenge: Paired Worktime](./challenges) |
-|*12:00-1:00* | Lunch |
-|*1:15-1:30*  | [Class: How to Demo](./how_to_demo.markdown) |
-|*1:45-2:45*  | Lab: Writing Your Demo |
-|*2:45-3:45*  | Class: Demo Practice |
-|*3:45-4:15*  | [Lab: Taking Your Work With You](./taking_work_with_you.markdown) |
-|*4:15-4:45*  | [Wrap Up](./wrap-up.markdown) |
+|*9:15-11:45* | Personal Projects |
+|*11:45-12:45*| Lunch |
+|*12:45-4:30* | Personal Projects |
+|*4:30-4:45*  | [Wrap Up](./wrap-up.markdown) |
 
 ### Day 10
 
 |Time|Session|
 |---|---|
-|*9:15-9:30*  | [Stand Up & Journaling](./opening_circle_stand_up.markdown) |
-|*9:30-10:00* | Collaboration: Cross-Pair Share |
-|*10:00-12:00*| Lab: Final Touches |  
-|*12:00-1:00* | Lunch |
-|*1:00-4:00*  | Graduation - Details TBD |  
+|*9:00-9:15*  | [Stand Up & Journaling](./opening_circle_stand_up.markdown) |
+|*9:15-11:45*| Final Touches on Personal Projects |  
+|*11:45-12:45*| Lunch |
+|*12:45-4:00*  | Graduation - Details TBD |  
 |*4:15-4:45*  | [Wrap Up](./wrap-up.markdown) |
