@@ -77,43 +77,39 @@ In your notebooks, take 5 minutes to reflect on the following questions
 
 ---
 
-# Day 6: Stand Up & Journaling
+# Day 6: Stand Up
 
-In your notebooks, take 5 minutes to reflect on the following questions
-
+* How are you coming in today?
 * What did you do this weekend?  
 * What are you looking forward to this week?
 
 ---
 
-# Day 7: Stand Up & Journaling
+# Day 7: Stand Up
 
-In your notebooks, take 5 minutes to reflect on the following questions
-
+* How are you coming in today?
 * What is the biggest challenge you are facing this week?
 * What mindset do you have about your challenges?
 
 ---
 
-# Day 8: Stand Up & Journaling
+# Day 8: Stand Up
 
-In your notebooks, take 5 minutes to reflect on the following questions
-
+* How are you coming in today?
 * What do you love about coding?  
 * What is most frustrating about coding?
 
 ---
 
-# Day 9: Stand Up & Journaling
+# Day 9: Stand Up
 
-In your notebooks, take 5 minutes to reflect on the following questions
-
-* Tomorrow you will demo your projects.  What excites you about presenting your work?
+* How are you coming in today?
+* Tomorrow you will demo your personal projects.  What excites you about presenting your work?
 * What are you most nervous about in presenting your work?
 
 ---
 
-# Day 10: Stand Up & Journaling
+# Day 10: Journaling
 
 In your notebooks, take 5 minutes to reflect on the following questions
 
@@ -121,5 +117,14 @@ In your notebooks, take 5 minutes to reflect on the following questions
 * How did you grow as a person in the past two weeks?
 * Who has helped you grow the most during camp?  
 * What have you learned from the other people at camp?
+
+---
+
+# Day 10: Stand Up
+
+In your notebooks, take 5 minutes to reflect on the following questions
+
+* How are you coming in today?
+* Share your answer to _ONE_ of the journal questions!
 
 ---

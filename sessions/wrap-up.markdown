@@ -46,3 +46,36 @@ slidenumbers: true
 * What did you learn about yourself professionally? (think about how you work with others and face challenges)
 
 ---
+
+# Day 6
+
+* We've almost completed a REAL application - what are you most proud of in terms of what you have contributed to your team/project?
+
+---
+
+# Day 7
+
+* We had a lot of time to discuss possible career paths today -
+  - Do you have an idea of what you want to do as a career? (If no, it's OK!)
+  - Did anything you learned/discussed today make you consider changing your current plan/look into going a slightly or completely different direction?
+
+---
+
+# Day 8
+
+* We've used a variety of Apple technologies to build some cool apps! What is a feature of an app you use, or a piece of technology you are curious to learn more about?
+* What will the biggest challenge in completing your personal project be?
+
+---
+
+# Day 9
+
+* What support will you need tomorrow during `Final Work Time`?
+* What piece of your app are you most proud of?
+
+---
+
+# Day 10
+
+
+---
