@@ -170,3 +170,5 @@ The `-m` part of the command says we want to add a message to our commit. Always
 # Model Git Workflow
 
 * Christie and Amy Roadshow
+
+---
