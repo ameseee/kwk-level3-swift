@@ -20,10 +20,12 @@ This is the final step in functionality for our app!
 
 #### Expected
 
-* Drag a new View Controller onto your StoryBoard. Drag an Image View onto it and size however you would like. Drag a Navigation Bar from the Object Library onto it as well.
+* Drag a new View Controller onto your StoryBoard. Drag an Image View onto it and size however you would like.
 
 * Create a segue between the Table View Controller and the new View Controller. Make sure you have the entire controller selected when you click and drag.
 ![inline](slide_images/new_segue.png)
+
+ * Drag a Navigation Item from the Object Library onto the Navigation bar of your new View Controller (feel free to change the name of this view in the Nav bar).
 
 * Create a View Controller file so we can write code that controls the new View. File --> New --> File --> Cocoa Touch Class --> Class Name: (something like PhotoDetailViewController, up to you), Subclass of: (_must_ be UIViewController) --> Click `Next` --> Click `Create`
 
