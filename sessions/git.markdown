@@ -1,4 +1,3 @@
-
 footer: KWK Swift/iOS: Git & GitHub
 slidenumbers: true
 
