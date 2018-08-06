@@ -100,8 +100,8 @@
 |---|---|
 |*9:00-9:15*  | [Stand Up & Journaling](./opening_circle_stand_up.markdown) |
 |*9:15-10:00* | [Challenge: Paired Worktime](./challenges) |
-|*10:00-10:30*| [Pimp My Terminal](ADD LINK) |
-|*10:30-11:45*| [Git and GitHub](ADD LINK) |
+|*10:00-10:30*| Pimp My Terminal |
+|*10:30-11:45*| [Git and GitHub](./git.markdown) |
 |*11:45-12:45*| Lunch |
 |*12:45-1:15* | [Class: Core Data](./core_data_slides.markdown) |
 |*1:15-2:30*  | [Project: Core Data in ViewFinder](./core_data_lab.markdown) |
