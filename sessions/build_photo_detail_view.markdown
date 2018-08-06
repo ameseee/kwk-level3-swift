@@ -36,7 +36,7 @@ This is the final step in functionality for our app!
 * Right below the outlet, create a variable, for this example we will use `photo`, with the optional type (again in this example), `Photos`. `Photos` was used here because it is the entity name in Core Data.
 
 ```swift
-let photo : Photos?
+var photo : Photos?
 ```
 
 * In _Table_ View Controller, write a `tableView` function - when you start typing, it will being to autocomplete. Select the function that includes `didSelectRowAt`. Inside that function, call the `performSegue` function - it will auto-complete. The `sender:` value should be `photos[indexPath.row]` - photos was the variable that started off as the empty array. For the `withIdentifier` value, we need to hop over to the StoryBoard to get some information.
