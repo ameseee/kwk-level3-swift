@@ -43,7 +43,7 @@ var photo : Photos?
   - In the StoryBoard, click on the segue you established between the Table View Controller and the Photo Detail View. In the Utilities Pane, click on the Attributes Inspector. Under StoryBoard Segue, we need to type in an Identifier. It should be descriptive - maybe `moveToDetail`, or `detailSegue`.
   - Whatever you just named the segue Identifier in the step above, that should go, in a string, as the value of the `withIdentifier` argument in the `performSegue` function back in the Table View Controller.
 
-* Now that we've told the program to perform the segue, we need to tell it how to prepare. Below the `performSegue` function, start typing out `prepare` and an `override func prepare(for segue ...)` should auto-populate.
+* Now that we've told the program to perform the segue, we need to tell it how to prepare. Outside and below the `tableView` function that you just wrote, start typing out `prepare` and an `override func prepare(for segue ...)` should auto-populate.
 
 * Inside the `prepare` function, we first need to check if we are dealing with the correct segue - in this example's case, `moveToDetail`. Your code should look something like this:
 
