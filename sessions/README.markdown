@@ -138,7 +138,7 @@
 |*12:45-1:00* | DTR |
 |*1:00-2:00*  | Plan Your Design |
 |*2:00-3:00*  | Wireframes |
-|*3:00-4:30*  | Start Builing Personal Projects |
+|*3:00-4:30*  | Start Building Personal Projects |
 |*4:30-4:45*  | [Wrap Up](./wrap-up.markdown) |
 
 ### Day 9
