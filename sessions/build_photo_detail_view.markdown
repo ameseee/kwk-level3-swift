@@ -114,7 +114,7 @@ override func viewDidLoad() {
 
 * Now, we need can make the title on the nav bar match the title you gave the photo:
 
-```swift4
+```swift
 override func viewDidLoad() {
     super.viewDidLoad()
 
