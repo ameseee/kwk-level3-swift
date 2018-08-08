@@ -199,8 +199,9 @@ Now in the `ToDoTableViewController`, we need create a `prepare` for segue funct
 
 ```swift
 override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-  let addVC = segue.destination as! AddToDoViewController
-  addVC.previousVC = self
+  if let addVC = segue.destination as? AddToDoViewController {
+    addVC.previousVC = self
+  } 
 }
 ```
 
@@ -289,6 +290,46 @@ override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: Inde
   performSegue(withIdentifier: "moveToComplete", sender: toDo)
 }
 ```
+
+We should now be able to make the segue, but our ToDo doesn't show up. Let's fix that!! First, we need to add two properties on our `CompleteToDoViewController` class so that we can reference the (previous) ToDoTableViewController.
+
+```swift
+var previousVC = ToDoTableViewController()
+var selectedToDo = ToDo()
+```
+
+We need to revisit our `prepare` for segue function that we wrote in our ToDoTableViewController. This function gets called whether we segue to the AddToDoViewController or segue to the CompleteToDoViewController, so we need to be a little more specific.
+
+```swift
+override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+  if let addVC = segue.destination as? AddToDoViewController {
+      addVC.previousVC = self
+  }
+  
+  if let completeVC = segue.destination as? CompleteToDoViewController {
+      if let toDo = sender as? ToDo {
+          completeVC.selectedToDo = toDo
+          completeVC.previousVC = self
+      }
+  }
+}
+```
+
+We've now successfully set up the segue and we need to make sure that the ToDo text is getting to the CompleteToDoViewController.
+
+* In `CompleteToDoViewController.swift`, we need to add some code to our `viewDidLoad` function to grab the name of the ToDo and assign it to the text of our titleLabel
+
+```swift
+override func viewDidLoad() {
+  super.viewDidLoad()
+  
+  titleLabel.text = selectedToDo.name
+}
+```
+
+Ok... run your app and make sure you are getting the ToDo in the CompleteToDoViewController. Everything should be working great now! 
+
+The only piece of functionality that we are missing is being able to remove a ToDo from the ToDo List (Table View). Since we are just working with hard-coded data at the moment, we would have to loop through the array and find the ToDo that we are wanting to remove. This is kind of a pain and won't be necessary once we implement CoreData, so hang tight for a bit and we will add this functionality once we are dealing with real data in our mini-database!
 
 ## Adding to CoreData
 
