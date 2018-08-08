@@ -129,10 +129,10 @@ override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexP
 
 ## Design the AddToDoViewController
 
-Now we're going to build our AddToDoViewController!
+Now we're going to build our AddToDoViewController! Let's first create it visually, then we'll add some code to go with it.
 
 * Drag a new View Controller from the Object Library to the Storyboard
-* Create a segue from the add button (+) on our Table View Controller to our new View Controller (Action Segue -> Show)
+* Create a segue from the add button (+) on our Table View Controller to our new View Controller (Action Segue -> Show) - this is going to allow us to move back and forth between views
 
 Let's think about what objects we will need to add to this view. Looking back at the finished app at the top of the page, we need...
   - a **label** for `Title:`
@@ -142,6 +142,33 @@ Let's think about what objects we will need to add to this view. Looking back at
   - a **button** to add a ToDo
 
 Don't forget to add constraints so that it looks good on all screens!!!
+
+Ideally, we probably would like our switch to be in the `off` position when we come to the page. If we highlight the switch in our storyboard and open the Attributes Inspector, we can change the state of the switch to off.
+
+Now is probably a good time to run this in your simulator and make sure everything looks how you want it to.
+
+* Now let's add the code file that will be associated with this View Controller (File -> New -> File... -> Cocoa Touch Class -> Next) - this will be a subclass of UIViewController (I called mine AddToDoViewController)
+* In your storyboard, select this View Controller and then open the Identity Inspector and add the new class you just created to connect the code to the View Controller
+* Next, let's just make the necessary Outlet and Action connections we need
+
+```swift
+import UIKit
+
+class AddToDoViewController: UIViewController {
+    
+  @IBOutlet weak var titleTextField: UITextField!
+  @IBOutlet weak var importantSwitch: UISwitch!
+  
+  override func viewDidLoad() {
+      super.viewDidLoad()
+
+  }
+
+  @IBAction func addTapped(_ sender: Any) {
+  }
+    
+}
+```
 
 ## Adding ToDos
 
