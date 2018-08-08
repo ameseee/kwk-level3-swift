@@ -24,11 +24,11 @@ This should have added a Navigation Controller to the Storyboard and added a Nav
 
 If we select the Navigation Item in the Table View Controller, we can now add a Title to our app (ToDo List or whatever you prefer)
 
-![inline](./navItem.png)
+![inline](./assets/navItem.png)
 
 We now want to add a Bar Button Item that will take us to another View to add a ToDo. You can customize this however you like.
 
-![inline](./barButtonItem.png)
+![inline](./assets/barButtonItem.png)
 
 Great! Let's connect this Table View to some code!
 
@@ -36,7 +36,7 @@ Great! Let's connect this Table View to some code!
 
 Don't forget to make this a subclass of UITableViewController and connect it to the TableViewController on your storyboard!
 
-![inline](./connectToDoTableVC.png)
+![inline](./assets/connectToDoTableVC.png)
 
 ## Create a custom ToDo class
 
