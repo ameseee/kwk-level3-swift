@@ -14,12 +14,29 @@
 ## Adding and Designing a TableView
 
 * From the Object Library, add a Table View Controller to the Storyboard
-* Embed in Navigational Controller (select this option from Editor)
+* With the Table View Controller selected in the Storyboard, embed it in a Navigation Controller (select this option from Editor)
+
 ![inline](./assets/embedInNav.png)
+
+This should have added a Navigation Controller to the Storyboard and added a Navigation Item to our Table View Controller. We now want to make sure that this is our point of entry for our ToDo List application. 
+
 * With the Navigational Controller selected, make sure `Is Initial View Controller` is checked in the Attributes Inspector
-* Add a title to the NavItem (ToDo List or whatever you prefer)
-* Add a Bar Button Item to the top right of the Nav Bar (you can customize this however you like... it will eventually take you to add a new ToDo)
-* Create a ToDoTableViewController file (remember to inherit from a UITableViewController) and connect it to the TableViewController on your storyboard
+
+If we select the Navigation Item in the Table View Controller, we can now add a Title to our app (ToDo List or whatever you prefer)
+
+![inline](./navItem.png)
+
+We now want to add a Bar Button Item that will take us to another View to add a ToDo. You can customize this however you like.
+
+![inline](./barButtonItem.png)
+
+Great! Let's connect this Table View to some code!
+
+* Create a ToDoTableViewController file (File -> New -> File... -> Cocoa Touch Class -> Next). 
+
+Don't forget to make this a subclass of UITableViewController and connect it to the TableViewController on your storyboard!
+
+![inline](./connectToDoTableVC.png)
 
 ## Create a custom ToDo class
 
