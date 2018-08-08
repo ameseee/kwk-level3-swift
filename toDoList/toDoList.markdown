@@ -276,7 +276,6 @@ When the user taps on a single ToDo, we want to initiate the segue from the ToDo
 
 * Highlight the segue between the ToDoTableViewController and the CompleteToDoViewController on the Storyboard and open the Attributes Inspector. Let's give this segue a name of `moveToComplete` in the `Identifier` field
 
-<<<<<<< HEAD
 ![inline](./assets/moveToComplete.png)
 
 Now we need to go back to the ToDoTableViewController and add a `tableView` function that has an argument of `didSelectRowAt`. Inside of here, we want to call performSegue (you should be able to press `Enter` to autocomplete this function with the correct arguments). Here is where we are going to give it that identifier of moveToComplete (this needs to be a string). We also need to grab the single row/ToDo to pass to the sender.
