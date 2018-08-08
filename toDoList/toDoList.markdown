@@ -40,11 +40,16 @@ Don't forget to make this a subclass of UITableViewController and connect it to 
 
 ## Create a custom ToDo class
 
-* Create a new file (select Swift file instead of Cocoa Class) named ToDo
-* import UIKIt
-* Create a ToDo class that has 2 instance variables/properties... `name` and `important`
-* Initialize name to an empty string and important to the boolean false
-* Back in our ToDoTableViewController, we need to make a function that will create toDos and return an array of toDos (we'll hard code this for now and replace it a little later)
+* Create a new file (File -> New -> File... -> Swift File -> Next) and name it `ToDo` (this will create a ToDo.swift file in our project)
+* Delete `import Foundation` and add `import UIKIt`
+* Create a ToDo class that has 2 instance variables/properties... `name` and `important` - if you need a refresher on how to create a class and add instance variables, take a look back at [this lesson](https://github.com/ameseee/kwk-level3-swift/blob/master/sessions/classes_objects_slides.markdown)
+
+It probably makes sense to initialize `name` to an *empty string* and `important` to the boolean *false*. And that's all we need to do for our ToDo class!!!
+
+## Create some ToDos
+
+* Back in our ToDoTableViewController, we need to make a function that will create toDos and return an array of toDos (we'll hard code this for now and replace it a little later when we hook up CoreData)
+
 ```swift
 func createToDos() -> [ToDo] {
         
@@ -59,10 +64,66 @@ func createToDos() -> [ToDo] {
   return [swift, dog]
 }
 ```
-* We also need to create a toDos property on our class
+* We also need to create a toDos property on our ToDoTableViewController class (above our viewDidLoad func)
+
 ```swift
 var toDos : [ToDo] = []
 ```
+
+* Inside `func viewDidLoad()`, delete all the commented out code and reassign toDos to our createToDos function (now toDos will be the array of toDos we returned from the function)
+
+```swift
+override func viewDidLoad() {
+  super.viewDidLoad()
+
+  toDos = createToDos()
+}
+```
+
+Let's clean this file up a little more. You can delete all the other functions in this file **except** the `tableView` function with `numberOfRowsInSection`, the `tableView` function with `cellForRowAt`, and the last `prepare` function that has to do with segue navigation (you can leave this commented out for now).
+
+* In the `tableView` function with the argument `numberOfRowsInSection`, you should return toDos.count
+
+```swift
+override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+  return toDos.count
+}
+```
+
+* In the `tableView` function with the argument `cellForRowAt`, we want to copy the string **reuseIdentifier**
+* Now go back to the Storyboard and click right under Prototype Cells to highlight the Table View Cell
+* In the Attributes Inspector, paste **reuseIdentifier** into the `Identifier` field
+* Now inside that same `tableView` function, we need to access a single toDo
+
+```swift 
+override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+  let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
+
+  let toDo = toDos[indexPath.row]
+
+  return cell
+}
+```
+
+* Now let's add some code to get our toDos to show up and to indicate if the toDo has been marked important
+
+```swift
+override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+  let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
+  
+  let toDo = toDos[indexPath.row]
+  
+  if toDo.important {
+    cell.textLabel?.text = "❗️" + toDo.name
+  } else {
+    cell.textLabel?.text = toDo.name
+  }
+  
+  return cell
+}
+```
+
+**BOOM!** You should now be able see our hard-coded toDos in the Table View when you run the application!
 
 ## Design the AddToDoViewController
 
