@@ -4,7 +4,7 @@ By the end of this iteration, your app should have the following functionality:
   - When any emoji is clicked on, an alert will appear. The alert should inform the user of the emotion (in words) that the tapped-on emoji represents.
 
 Sample:
-![inline](slide_images/emoji_it_1.gif)
+![inline](./1_emoji.gif)
 
 ## Let's make it happen!
 
