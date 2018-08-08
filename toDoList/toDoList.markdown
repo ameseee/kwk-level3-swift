@@ -172,6 +172,75 @@ class AddToDoViewController: UIViewController {
 
 ## Adding ToDos
 
+Now we want to work on adding a new ToDo from the AddToDoViewController, then popping back to the ToDoTableViewController and being able to see that new ToDo in our Table View
+
+* First, we need to make a new ToDo item inside our `addTapped` function and grab the value of the input field as well as the importance status of the ToDo
+
+```swift
+@IBAction func addTapped(_ sender: Any) {
+  let toDo = ToDo()
+  
+  if let titleText = titleTextField.text {
+      toDo.name = titleText
+      toDo.important = importantSwitch.isOn
+  }
+}
+```
+
+Now we need to add this ToDo to our ToDo array. We have a small problem though... that ToDo array lives on another class (ToDoTableViewController). No worries! We can fix this by adding a reference to that class in our AddToDoViewController. All we need to do is add the following line of code above our Outlets.
+
+```swift
+var previousVC = ToDoTableViewController()
+```
+
+Now in the `ToDoTableViewController`, we need create a `prepare` for segue function (this gets called right before a segue happens)
+
+* Un-comment out the `prepare` function at the bottom of `ToDoTableVeiwController.swift` and add the following code to create a reference to the AddToDoViewController
+
+```swift
+override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+  let addVC = segue.destination as! AddToDoViewController
+  addVC.previousVC = self
+}
+```
+
+Now back in the AddToDoViewController, we can access the ToDo array that lives in the ToDoTableViewController.
+
+* Add the new ToDo to the array and update/reload the Table View
+
+```swift
+@IBAction func addTapped(_ sender: Any) {
+  let toDo = ToDo()
+  
+  if let titleText = titleTextField.text {
+      toDo.name = titleText
+      toDo.important = importantSwitch.isOn
+  }
+  previousVC.toDos.append(toDo)
+  previousVC.tableView.reloadData()
+}
+```
+
+So now if we run our application, we can add a new ToDo, click `< ToDo List`, and our new ToDo is there in our Table View!!! Only thing left to do now for this part is have it automatically pop back to the Table View when the user taps `Add`. We just need to call a single function after we update/reload the Table View.
+
+* Pop back to the previous view when the user taps the `Add` button
+
+```swift
+@IBAction func addTapped(_ sender: Any) {
+  let toDo = ToDo()
+  
+  if let titleText = titleTextField.text {
+      toDo.name = titleText
+      toDo.important = importantSwitch.isOn
+  }
+  previousVC.toDos.append(toDo)
+  previousVC.tableView.reloadData()
+  navigationController?.popViewController(animated: true)
+}
+```
+
+Just for a sanity check, run your application to make sure everything is working correctly.
+
 ## Completing/Removing a ToDo
 
 ## Adding to CoreData
