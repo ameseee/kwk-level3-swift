@@ -243,6 +243,51 @@ Just for a sanity check, run your application to make sure everything is working
 
 ## Completing/Removing a ToDo
 
+Now we want to focus on being able to select a ToDo from the Table View and being taken to another view where we can mark a ToDo complete and remove it from our list.
+
+* Add another View Controller to your Storyboard (I added mine below the ToDoTableViewController since it will segue from there)
+* Select the ToDoTableViewController and create a segue from ToDo List (top, left icon in Table VC) to the new View Controller (Manual Segue -> Show) - this automatically gives us a nav item that can take us back to the ToDo List
+* Add a **label** for our ToDo and a complete **button** to the Storyboard
+* Create a code version of this View Controller (File -> New -> File... -> Cocoa Touch Class -> Next) - make this a subclass of UIViewController
+* Go back to the Storyboard, select the view that you just created and connect it with the code file you just created
+
+![inline](./assets/connectComplete.png)
+
+* Create the necessary Outlet and Action in the code file
+
+```swift
+import UIKit
+
+class CompleteToDoViewController: UIViewController {
+    
+  @IBOutlet weak var titleLabel: UILabel!
+  
+  override func viewDidLoad() {
+      super.viewDidLoad()
+
+  }
+
+  @IBAction func completeTapped(_ sender: Any) {
+  }
+}
+```
+
+When the user taps on a single ToDo, we want to initiate the segue from the ToDo List to the CompleteToDoViewController. In order for that to happen, we have to give the segue a name.
+
+* Highlight the segue between the ToDoTableViewController and the CompleteToDoViewController on the Storyboard and open the Attributes Inspector. Let's give this segue a name of `moveToComplete` in the `Identifier` field
+
+Now we need to go back to the ToDoTableViewController and a `tableView` function that has an argument of `didSelectRowAt`. Inside of here, we want to call performSegue (you should be able to press `Enter` to autocomplete this function with the correct arguments). Here is where we are going to give it that identifier of moveToComplete (this needs to be a string). We also need to grab the single row/ToDo to pass to the sender.
+
+```swift
+override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+
+  // this gives us a single ToDo     
+  let toDo = toDos[indexPath.row]
+  
+  performSegue(withIdentifier: "moveToComplete", sender: toDo)
+}
+```
+
 ## Adding to CoreData
 
 ## Fetching from CoreData
