@@ -15,7 +15,7 @@
 
 * From the Object Library, add a Table View Controller to the Storyboard
 * Embed in Navigational Controller (select this option from Editor)
-![inline](./embedInNav.png)
+![inline](./assets/embedInNav.png)
 * With the Navigational Controller selected, make sure `Is Initial View Controller` is checked in the Attributes Inspector
 * Add a title to the NavItem (ToDo List or whatever you prefer)
 * Add a Bar Button Item to the top right of the Nav Bar (you can customize this however you like... it will eventually take you to add a new ToDo)
