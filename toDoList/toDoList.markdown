@@ -82,7 +82,7 @@ override func viewDidLoad() {
 
 Let's clean this file up a little more. You can delete all the other functions in this file **except** the `tableView` function with `numberOfRowsInSection`, the `tableView` function with `cellForRowAt`, and the last `prepare` function that has to do with segue navigation (you can leave this commented out for now).
 
-* In the `tableView` function with the argument `numberOfRowsInSection`, you should return toDos.count
+* In the `tableView` function with the argument `numberOfRowsInSection`, we want to return toDos.count
 
 ```swift
 override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
