@@ -2,7 +2,7 @@
 
 ## What we're building
 
-![inline](./assets/tosolist.gif)
+![inline](./assets/todolist.gif)
 
 ## Getting Started
 
