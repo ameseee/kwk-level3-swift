@@ -129,6 +129,20 @@ override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexP
 
 ## Design the AddToDoViewController
 
+Now we're going to build our AddToDoViewController!
+
+* Drag a new View Controller from the Object Library to the Storyboard
+* Create a segue from the add button (+) on our Table View Controller to our new View Controller (Action Segue -> Show)
+
+Let's think about what objects we will need to add to this view. Looking back at the finished app at the top of the page, we need...
+  - a **label** for `Title:`
+  - a **text field** where the user can add a ToDo
+  - another **label** for `Important:`
+  - a **switch** to toggle important/not important
+  - a **button** to add a ToDo
+
+Don't forget to add constraints so that it looks good on all screens!!!
+
 ## Adding ToDos
 
 ## Completing/Removing a ToDo
