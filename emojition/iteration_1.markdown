@@ -1,4 +1,4 @@
-#Iteration 1
+# Iteration 1
 
 By the end of this iteration, your app should have the following functionality:
   - When any emoji is clicked on, an alert will appear. The alert should inform the user of the emotion (in words) that the tapped-on emoji represents.
@@ -28,3 +28,5 @@ _HINT: Look back at that dictionary practice if you need to!_
 ## CHALLENGE:
 
 - What if you wanted _two_ options on that alert - one that says "OK" and one that says "bye"? Make it happen. If you don't want both, delete the code afterwards. Practice if good for you😉
+
+Move on to [Iteration 2](./iteration_2.markdown)!
