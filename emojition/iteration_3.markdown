@@ -22,3 +22,5 @@ HINT: If you are getting a lot of red as you go - READ THOSE ERRORS! Most of the
 By the end of this, your app should look something like (but a lot better than 😜) this:
 
 ![inline](./3_emoji.gif)
+
+Don't forget to commit and **push your code**!

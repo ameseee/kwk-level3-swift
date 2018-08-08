@@ -27,4 +27,4 @@ let customMessages = [
 
 - Now that we have this array, we need to randomly select _one_ message from it! Go get your google on and research how to generate a random number in Swift. Try to generate one and store it in a variable (right above your `alertController`). When you think you have it, check in with an instructor.
 
-Move on to [Iteration 3](./iteration_3.markdown)!
+**Commit and push your code,** and then move on to [Iteration 3](./iteration_3.markdown)!

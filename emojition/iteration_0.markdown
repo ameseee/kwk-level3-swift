@@ -18,6 +18,8 @@ By the end of this iteration, your app should:
 
 - **Run in simulator and make sure everything looks great!**
 
+- **Create a Git and GitHub repository and push your code up!**
+
 - Inside the `ViewController.swift` file, we will just add ONE function (now) and a couple of instance variables (later).
 
 - This function is going to seem a little different from what you are used to. It will be an `@IBAction func ...` BUT you will not create the action like you normally do. This is because we have to set it up differently to get that alert box to show up.
@@ -78,4 +80,6 @@ We are so close!
 
 - Repeat for every button.
 
-- **Run in simulator** - are you getting an alert on each button tap? Go back into your code and change the strings for title, message, and title (in `addAction`) to see what changes. If this all works, move on to [Iteration 1](./iteration_1.markdown). 
+- **Run in simulator** - are you getting an alert on each button tap? Go back into your code and change the strings for title, message, and title (in `addAction`) to see what changes. If this all works, move on to [Iteration 1](./iteration_1.markdown).
+
+- **Commit and push your code up to GitHub!**

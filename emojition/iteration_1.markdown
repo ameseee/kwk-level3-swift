@@ -29,4 +29,4 @@ _HINT: Look back at that dictionary practice if you need to!_
 
 - What if you wanted _two_ options on that alert - one that says "OK" and one that says "bye"? Make it happen. If you don't want both, delete the code afterwards. Practice if good for you😉
 
-Move on to [Iteration 2](./iteration_2.markdown)!
+**Commit and push** your code, then move on to [Iteration 2](./iteration_2.markdown)!
