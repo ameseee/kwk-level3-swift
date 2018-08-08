@@ -1,4 +1,4 @@
-#Iteration 2
+# Iteration 2
 
 This iteration of work will help set you up to complete the project. You will also get some great debugging practice (which hopefully by now you believe me it's a good thing to be good at🤓)
 
@@ -26,3 +26,5 @@ let customMessages = [
 - What you just did above is a `debugging` technique - even though you may not have had a bug yet. It's a good practice to stop and check in every few minutes to make sure you have the data you think you have. In Swift, `print` statements are a tool for that.
 
 - Now that we have this array, we need to randomly select _one_ message from it! Go get your google on and research how to generate a random number in Swift. Try to generate one and store it in a variable (right above your `alertController`). When you think you have it, check in with an instructor.
+
+Move on to [Iteration 3](./iteration_3.markdown)!
