@@ -49,7 +49,8 @@ slidenumbers: true
 
 # Day 6
 
-* We've almost completed a REAL application - what are you most proud of in terms of what you have contributed to your team/project?
+* Today was also frustrating at times (or many!) because `$*&$` was broken. This is dev life😜 What can you do to keep yourself positive and moving forward during those frustrating moments?!
+* We've almost completed a REAL application - what are you most proud of in terms of what you have contributed to your team/project? (Doesn't have to be a feature.)
 
 ---
 

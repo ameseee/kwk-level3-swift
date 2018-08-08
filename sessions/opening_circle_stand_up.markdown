@@ -93,6 +93,15 @@ In your notebooks, take 5 minutes to reflect on the following questions
 
 ---
 
+# Tuesday AM:
+
+* Create GitHub repo and push up what you have
+* Share link to your repo in Slack so instructors have
+* Work on your current bug - write it on your whiteboard
+* FOLLOW DIRECTIONS for Core Data, Build Photo Detail View, & Delete 👍
+
+---
+
 # Day 8: Stand Up
 
 * How are you coming in today?
