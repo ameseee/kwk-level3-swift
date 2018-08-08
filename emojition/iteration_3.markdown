@@ -1,9 +1,7 @@
 # Iteration 3
 
 ## Where we left off
-- Your last challenge was to generate a random number.
-
-- You have have something like this...
+Your last challenge was to generate a random number. You have have something like this...
 
 ```swift
 let randomNum = Int(arc4random_uniform(100))
