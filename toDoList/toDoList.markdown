@@ -2,6 +2,8 @@
 
 ## What we're building
 
+This is a really cool ToDo List application that has never been built before 🙄😛🤗. You can create a new ToDo, indicate if it is important, and delete it from your list once you have completed it. Genius! 
+
 ![inline](./assets/todolist.gif)
 
 ## Getting Started
