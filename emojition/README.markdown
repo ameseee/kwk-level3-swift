@@ -8,4 +8,4 @@ You have full control over the UI of this app (it is truly a single screen), the
 
 Here's a super plain version of what you're shooting for:
 
-![inline](./emoji-it-3.gif)
+![inline](./3_emoji.gif)
