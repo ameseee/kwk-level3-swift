@@ -132,8 +132,11 @@
 |Time|Session|
 |---|---|
 |*9:00-9:15*  | [Stand Up & Journaling](./opening_circle_stand_up.markdown) |
-|*9:15-10:45* | [AR Exploration](./ar.markdown) |
-|*10:45-11:45*| Brainstorm & Project Pitch |
+|*9:15-9:15*  | [AR Exploration](./ar.markdown) |
+|*9:15-9:45*  | [Demo Example, How to Demo](./how_to_demo.markdown) |
+|*9:15-10:15* | Plan Your Demo |
+|*10:15-11:15*| ViewFinder Demos |
+|*11:15-11:45*| Project BrainStorm & Pitches |
 |*11:45-12:45*| Lunch |
 |*12:45-1:00* | DTR |
 |*1:00-2:00*  | Plan Your Design |

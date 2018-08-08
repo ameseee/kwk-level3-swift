@@ -105,8 +105,7 @@ In your notebooks, take 5 minutes to reflect on the following questions
 # Day 8: Stand Up
 
 * How are you coming in today?
-* What do you love about coding?  
-* What is most frustrating about coding?
+* What is your personal project idea (10 second explanation)? If you don't have one - that's cool too!
 
 ---
 
