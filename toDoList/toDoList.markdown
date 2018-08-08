@@ -2,7 +2,7 @@
 
 ## What we're building
 
-![]()
+![inline](./assets/tosolist.gif)
 
 ## Getting Started
 
