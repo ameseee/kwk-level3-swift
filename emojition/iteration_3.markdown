@@ -23,4 +23,4 @@ HINT: If you are getting a lot of red as you go - READ THOSE ERRORS! Most of the
 
 By the end of this, your app should look something like (but a lot better than 😜) this:
 
-![inline](./sessions/slide_images/emoji-it-3.gif)
+![inline](/emoji-it-3.gif)
