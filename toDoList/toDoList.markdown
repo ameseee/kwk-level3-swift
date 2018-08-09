@@ -378,5 +378,72 @@ Let's do a quick recap! Once we created a new ToDo CoreData object, we set its n
 
 ## Fetching from CoreData
 
+* In the `ToDoTableViewController`, create a new function called `getToDos` - this function is going to fetch our ToDos from CoreData
+* Go ahead and call this function inside `viewDidLoad`
+* We need to change our `toDos` property on the `ToDoTableViewController` class - we now want to return an array of CoreData ToDos
+
+```swift
+var toDos : [ToDoCD] = []
+```
+
+* The first thing we need to do in our `getToDos` function 
+is access CoreData (we did this previously in our AddToDoViewController)
+
+```swift
+func getToDos() {
+  if let context = (UIApplication.shared.delegate as? AppDelegate)?.persistentContainer.viewContext {
+      
+  }
+}
+```
+
+* Now we need to fetch the ToDos from CoreData and bring them back as an array of CoreData objects
+
+```swift
+func getToDos() {
+  if let context = (UIApplication.shared.delegate as? AppDelegate)?.persistentContainer.viewContext {
+      
+      if let coreDataToDos = try? context.fetch(ToDoCD.fetchRequest()) as? [ToDoCD] {
+          if let theToDos = coreDataToDos {
+              toDos = theToDos
+              tableView.reloadData()
+          }
+      }
+  }
+}
+```
+
+* Delete `toDos = createToDos()` inside the `viewDidLoad` function - we no longer need to create our fake ToDos since we are fetching them from CoreData (you can delete or comment out our `createToDos` function that we wrote earlier since we are no longer using it)
+
+You may be getting an error in your `tableView` function about a String not being unwrapped. If so, here's how we can fix this problem... basically, we have to unwrap the name.
+
+```swift
+override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+  let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
+  
+  let toDo = toDos[indexPath.row]
+  
+  if let name = toDo.name {
+      if toDo.important {
+          cell.textLabel?.text = "❗️" + name
+      } else {
+          cell.textLabel?.text = toDo.name
+      }
+  }
+  
+  return cell
+}
+```
+
+Right now, `getToDos` is only being called in `viewDidLoad` (when we first come to the page). We need to write some code so that the new ToDos will appear as CoreData is updated.
+
+* Write a new function `viewWillAppear` and call `getToDos` inside this function (we no longer need to call `getToDos` inside `viewDidLoad`, so you can delete it there)
+
+```swift
+override func viewWillAppear(_ animated: Bool) {
+  getToDos()
+}
+```
+
 ## Deleting from CoreData
 
