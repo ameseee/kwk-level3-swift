@@ -8,11 +8,14 @@ In your ViewController, create an instance variable that references an instance 
 var timer = Timer()
 ```
 
+You will also want an outlet that connects to a label on your StoryBoard. This label will hold a string with a number representing the time left. 
+
 To start the timer, use the `scheduledTimer()` method. Reassign your `timer` instance variable to this function so it updates the whole application.
 
 ```swift
 timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(ViewController.decreaseTimer), userInfo: nil, repeats: true)
 ```
+You should have an error - `decreaseTimer()` is not a function - write one! Inside the code block, you need to decrease the time left (the variable that is an outlet).
 
 To pause your timer, call the `invalidate()` function on the timer instance variable.
 
