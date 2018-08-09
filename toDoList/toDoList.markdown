@@ -160,7 +160,7 @@ class AddToDoViewController: UIViewController {
   @IBOutlet weak var importantSwitch: UISwitch!
   
   override func viewDidLoad() {
-      super.viewDidLoad()
+    super.viewDidLoad()
 
   }
 
@@ -181,8 +181,8 @@ Now we want to work on adding a new ToDo from the AddToDoViewController, then po
   let toDo = ToDo()
   
   if let titleText = titleTextField.text {
-      toDo.name = titleText
-      toDo.important = importantSwitch.isOn
+    toDo.name = titleText
+    toDo.important = importantSwitch.isOn
   }
 }
 ```
@@ -214,8 +214,8 @@ Now back in the AddToDoViewController, we can access the ToDo array that lives i
   let toDo = ToDo()
   
   if let titleText = titleTextField.text {
-      toDo.name = titleText
-      toDo.important = importantSwitch.isOn
+    toDo.name = titleText
+    toDo.important = importantSwitch.isOn
   }
   previousVC.toDos.append(toDo)
   previousVC.tableView.reloadData()
@@ -231,8 +231,8 @@ So now if we run our application, we can add a new ToDo, click `< ToDo List`, an
   let toDo = ToDo()
   
   if let titleText = titleTextField.text {
-      toDo.name = titleText
-      toDo.important = importantSwitch.isOn
+    toDo.name = titleText
+    toDo.important = importantSwitch.isOn
   }
   previousVC.toDos.append(toDo)
   previousVC.tableView.reloadData()
@@ -264,7 +264,7 @@ class CompleteToDoViewController: UIViewController {
   @IBOutlet weak var titleLabel: UILabel!
   
   override func viewDidLoad() {
-      super.viewDidLoad()
+    super.viewDidLoad()
 
   }
 
@@ -303,14 +303,14 @@ We need to revisit our `prepare` for segue function that we wrote in our ToDoTab
 ```swift
 override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
   if let addVC = segue.destination as? AddToDoViewController {
-      addVC.previousVC = self
+    addVC.previousVC = self
   }
   
   if let completeVC = segue.destination as? CompleteToDoViewController {
-      if let toDo = sender as? ToDo {
-          completeVC.selectedToDo = toDo
-          completeVC.previousVC = self
-      }
+    if let toDo = sender as? ToDo {
+      completeVC.selectedToDo = toDo
+      completeVC.previousVC = self
+    }
   }
 }
 ```
@@ -403,12 +403,12 @@ func getToDos() {
 func getToDos() {
   if let context = (UIApplication.shared.delegate as? AppDelegate)?.persistentContainer.viewContext {
       
-      if let coreDataToDos = try? context.fetch(ToDoCD.fetchRequest()) as? [ToDoCD] {
-          if let theToDos = coreDataToDos {
-              toDos = theToDos
-              tableView.reloadData()
-          }
-      }
+    if let coreDataToDos = try? context.fetch(ToDoCD.fetchRequest()) as? [ToDoCD] {
+        if let theToDos = coreDataToDos {
+            toDos = theToDos
+            tableView.reloadData()
+        }
+    }
   }
 }
 ```
@@ -424,11 +424,11 @@ override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexP
   let toDo = toDos[indexPath.row]
   
   if let name = toDo.name {
-      if toDo.important {
-          cell.textLabel?.text = "❗️" + name
-      } else {
-          cell.textLabel?.text = toDo.name
-      }
+    if toDo.important {
+        cell.textLabel?.text = "❗️" + name
+    } else {
+        cell.textLabel?.text = toDo.name
+    }
   }
   
   return cell
@@ -446,4 +446,32 @@ override func viewWillAppear(_ animated: Bool) {
 ```
 
 ## Deleting from CoreData
+
+Remember earlier when we talked about removing a ToDo and that using CoreData was going to simplify this process for us and not require us to loop over an array to find a specific ToDo... here we go!
+
+* In our `CompleteToDoViewController`, the first thing we need to do is update our `selectedToDo` property - this now needs to either be a type of CoreData ToDo or nil
+
+```swift
+var selectedToDo : ToDoCD?
+```
+
+This causes us a few errors, but no worries... We got this!! Inside of `viewDidLoad` where we are setting the text of the titleLabel to the selectedToDo.name, we can just add a `?` after `selectedToDo` and it will tell our code "if there is a selectedToDo, we'll go ahead and pass it the info it needs; otherwise, we'll set it equal to nil".
+
+We still have a few errors. Let's head back over to our `ToDoTableViewController`... it looks like our `prepare` for segue function is mad at us. When the segue destination is `CompleteToDoViewController`, our if let should now read `if let toDo = sender as? **ToDoCD**` (instead of just ToDo). You may need to run `Product -> Clean` to make sure all these changes take effect.
+
+* Let's now add some code to our `completeTapped` function that will delete a selected ToDo from CoreData (remember... we first need to write that same line of code that will allow us to access CoreData)
+
+```swift
+@IBAction func completeTapped(_ sender: Any) {     
+  if let context = (UIApplication.shared.delegate as? AppDelegate)?.persistentContainer.viewContext {
+    if let theToDo = selectedToDo {
+      context.delete(theToDo)
+    }
+  }
+}
+```
+
+And now we have a fully functional ToDo List application!!! Great Job!!!
+
+
 
