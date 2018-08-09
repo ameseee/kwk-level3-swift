@@ -331,7 +331,50 @@ Ok... run your app and make sure you are getting the ToDo in the CompleteToDoVie
 
 The only piece of functionality that we are missing is being able to remove a ToDo from the ToDo List (Table View). Since we are just working with hard-coded data at the moment, we would have to loop through the array and find the ToDo that we are wanting to remove. This is kind of a pain and won't be necessary once we implement CoreData, so hang tight for a bit and we will add this functionality once we are dealing with real data in our mini-database!
 
+## CoreData
+
+Our ToDo List app is working great now, except for nothing is being saved. When we leave our app and come back, none of our ToDos are there. CoreData is going to help of fix that. CoreData allows us to save information from each time we use the app moving forward. Let's get this little database set up!
+
+* In the Navigation Pane of our project, select the file that has the extension `.xcdatamodeld` - this was created when you selected `Use Core Data` when you created your project.
+* Click `Add Entity` (an entity is just a special kind of object) at the bottom of the screen - You can either name this Entity within the Document Outline or open the Data Model Inspector and change the name there (I already have a ToDo class and don't want to name my database the same as my class, so I went with `ToDoCD`)
+
+![inline](./assets/addEntity.png)
+
+* Add 2 attributes to our ToDoCD entity
+  - name: type should be *String*
+  - important: type should be *Boolean*
+
+* For each of these attributes, de-select the `Optional` button in the Data Model Inspector
+* Also in the Data Model Inspector, set the `Default Value` for the important attribute to `NO`
+
+Let's now head back to our `addTapped` function in our `addToDoViewController`. Rather than creating a new ToDo object, we need to access CoreData and create a new ToDoCD object. Since we know that the code we have works, let's just comment out all the code inside that function and re-write it. 
+
 ## Adding to CoreData
+
+* In the `addTapped` function in `AddToDoViewController`, add a new ToDo CoreData object - you have to pass in an entity and a managed object context
+
+```swift
+@IBAction func addTapped(_ sender: Any) {
+        
+  // we have to grab this view context to be able to work with CoreData
+  if let context = (UIApplication.shared.delegate as? AppDelegate)?.persistentContainer.viewContext {
+      
+    let toDo = ToDoCD(entity: ToDoCD.entity(), insertInto: context)
+    
+    if let titleText = titleTextField.text {
+        toDo.name = titleText
+        toDo.important = importantSwitch.isOn
+    }
+    
+    try? context.save()
+    
+    navigationController?.popViewController(animated: true)
+  }
+
+}
+```
+
+Let's do a quick recap! Once we created a new ToDo CoreData object, we set its name and whether or not its important. Then we saved the context and popped the View Controller to get back to the ToDo List (Table View). Try it out and make sure everything is working. You won't see the new ToDo in the ToDo List yet... we have to ask CoreData for it back. We'll do that in the next section! 
 
 ## Fetching from CoreData
 
