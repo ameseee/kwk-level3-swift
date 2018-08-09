@@ -11,7 +11,7 @@ This is a really cool ToDo List application that has never been built before ðŸ™
 * Create a new Xcode project (iOS, Single View App)
 * Make sure **USE CORE DATA** is selected
 * Head over to Main.storyboard and delete the existing View Controller 
-* From the Document Outline, delete the ViewController.swift file associated with that View Controller (Move to Trash)
+* From the Navigation Pane, delete the ViewController.swift file associated with that View Controller (Move to Trash)
 
 ## Adding and Designing a TableView
 
