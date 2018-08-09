@@ -158,8 +158,10 @@
 
 |Time|Session|
 |---|---|
-|*9:00-9:15*  | [Stand Up & Journaling](./opening_circle_stand_up.markdown) |
-|*9:15-11:45*| Final Touches on Personal Projects |  
-|*11:45-12:45*| Lunch |
-|*12:45-4:00*  | Graduation - Details TBD |  
-|*4:15-4:45*  | [Wrap Up](./wrap-up.markdown) |
+|*9:00-9:15*  | [Stand Up](./opening_circle_stand_up.markdown) |
+|*9:15-10:45* | Final Touches on Personal Projects |  
+|*10:45-11:15*| Prepare for Demos |  
+|*11:15-11:45*| Closing Reflections |  
+|*11:45-1:00* | Lunch |
+|*1:00-3:00*  | Demos & Graduation |  
+
