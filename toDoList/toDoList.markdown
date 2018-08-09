@@ -457,6 +457,10 @@ var selectedToDo : ToDoCD?
 
 This causes us a few errors, but no worries... We got this!! Inside of `viewDidLoad` where we are setting the text of the titleLabel to the selectedToDo.name, we can just add a `?` after `selectedToDo` and it will tell our code "if there is a selectedToDo, we'll go ahead and pass it the info it needs; otherwise, we'll set it equal to nil".
 
+```swift
+titleLabel.text = selectedToDo?.name
+```
+
 We still have a few errors. Let's head back over to our `ToDoTableViewController`... it looks like our `prepare` for segue function is mad at us. When the segue destination is `CompleteToDoViewController`, our if let should now read `if let toDo = sender as? ToDoCD` (instead of just ToDo). You may need to run `Product -> Clean` to make sure all these changes take effect.
 
 * Let's now add some code to our `completeTapped` function that will delete a selected ToDo from CoreData (remember... we first need to write that same line of code that will allow us to access CoreData)
