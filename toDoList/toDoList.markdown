@@ -463,13 +463,14 @@ titleLabel.text = selectedToDo?.name
 
 We still have a few errors. Let's head back over to our `ToDoTableViewController`... it looks like our `prepare` for segue function is mad at us. When the segue destination is `CompleteToDoViewController`, our if let should now read `if let toDo = sender as? ToDoCD` (instead of just ToDo). You may need to run `Product -> Clean` to make sure all these changes take effect.
 
-* Let's now add some code to our `completeTapped` function that will delete a selected ToDo from CoreData (remember... we first need to write that same line of code that will allow us to access CoreData)
+* Let's now add some code to our `completeTapped` function that will delete a selected ToDo from CoreData (remember... we first need to write that same line of code that will allow us to access CoreData) and pop us back to the ToDo List.
 
 ```swift
 @IBAction func completeTapped(_ sender: Any) {     
   if let context = (UIApplication.shared.delegate as? AppDelegate)?.persistentContainer.viewContext {
     if let theToDo = selectedToDo {
       context.delete(theToDo)
+      navigationController?.popViewController(animated: true)
     }
   }
 }
