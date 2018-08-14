@@ -2,10 +2,11 @@
 
 ## CoreData
 
-Our ToDo List app is working great now, except for nothing is being saved. When we leave our app and come back, none of our ToDos are there. CoreData is going to help of fix that. CoreData allows us to save information from each time we use the app moving forward. Let's get this little database set up!
+Our ToDo List app is working great now, except nothing is being saved. When we leave our app and come back, none of our ToDos are there. CoreData is going to help us fix that. CoreData allows us to save information from each time we use the app moving forward. Let's get this little database set up!
 
 * In the Navigation Pane of our project, select the file that has the extension `.xcdatamodeld` - this was created when you selected `Use Core Data` when you created your project.
 * Click `Add Entity` (an entity is just a special kind of object) at the bottom of the screen - You can either name this Entity within the Document Outline or open the Data Model Inspector and change the name there (I already have a ToDo class and don't want to name my database the same as my class, so I went with `ToDoCD`)
+NOTE: This vocab might be a little confusing because we are using a database, but a database is usually dealt with by the back-end of an application. This 'database' is local, on the device. If you have used localStorage with JavaScript, you can compare it to this. It is stored in the browser/app but not sent anywhere, meaning no one but the one user of this one instance of the app could access the data. 
 
 ![inline](./assets/addEntity.png)
 
@@ -28,9 +29,13 @@ Let's now head back to our `addTapped` function in our `addToDoViewController`. 
   // we have to grab this view context to be able to work with CoreData
   if let context = (UIApplication.shared.delegate as? AppDelegate)?.persistentContainer.viewContext {
       
+    // we are creating a new ToDoCD object here, naming it toDo
     let toDo = ToDoCD(entity: ToDoCD.entity(), insertInto: context)
     
+    // if the titleTextField has text, we will call that text titleText
     if let titleText = titleTextField.text {
+        // we will take the titleText and assign that value to toDo.name
+        // this .name and .important came from the attributes you typed in on the CoreData page!
         toDo.name = titleText
         toDo.important = importantSwitch.isOn
     }
